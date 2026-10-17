@@ -68,12 +68,13 @@ async function boot() {
   // Offline cache. Skipped on localhost during development unless ?sw is in the URL.
   const dev = ['localhost', '127.0.0.1'].includes(location.hostname) && !location.search.includes('sw');
   if ('serviceWorker' in navigator && location.protocol !== 'file:' && !dev) {
+    let userAskedReload = false;
     navigator.serviceWorker.register('sw.js').then((reg) => {
       // M-15: tell the user when a new version is ready instead of swapping silently.
       const offer = (worker) => {
         if (!navigator.serviceWorker.controller) return; // first install: nothing to replace
         const bar = h(`<div class="update-bar" role="status"><span>Nueva versión disponible</span><button type="button" class="btn btn--sm btn--primary">Recargar</button></div>`);
-        bar.querySelector('button').onclick = () => { worker.postMessage('skipWaiting'); };
+        bar.querySelector('button').onclick = () => { userAskedReload = true; worker.postMessage('skipWaiting'); };
         document.body.append(bar);
       };
       if (reg.waiting) offer(reg.waiting);
@@ -81,8 +82,8 @@ async function boot() {
         const w = reg.installing;
         w?.addEventListener('statechange', () => { if (w.state === 'installed') offer(w); });
       });
-      let reloaded = false;
-      navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloaded) { reloaded = true; location.reload(); } });
+      // Reload only when the user accepted the update (first install takes control silently).
+      navigator.serviceWorker.addEventListener('controllerchange', () => { if (userAskedReload) location.reload(); });
     }).catch(() => {});
   }
 }
