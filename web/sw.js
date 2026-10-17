@@ -13,7 +13,7 @@ self.addEventListener('install', (event) => {
     await cache.addAll(files.map((f) => new Request(f, { cache: 'reload' })));
     await cache.put('precache.json', new Response(JSON.stringify({ version, files })));
     // Wait for the page to confirm ("Recargar") before taking over, unless this is the first install.
-    if (!(await self.clients.matchAll()).length) self.skipWaiting();
+    if (!self.registration.active) self.skipWaiting();
   })());
 });
 
