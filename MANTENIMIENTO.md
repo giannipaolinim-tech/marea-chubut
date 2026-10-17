@@ -60,6 +60,18 @@ python tools/test_offline.py
 
 ## 1. Probar y publicar
 
+**Publicación actual:** https://giannipaolinim-tech.github.io/marea-chubut/ (repositorio `giannipaolinim-tech/marea-chubut`).
+
+Para publicar un cambio: corré las tres herramientas del punto 0 y después:
+
+```bash
+git add -A
+git commit -m "Descripción del cambio"
+git push
+```
+
+GitHub Actions valida los datos, corre la prueba sin conexión y publica la carpeta `web/` en unos 30 segundos. Si la validación falla, no se publica nada. Los teléfonos con la app instalada ven el aviso «Nueva versión disponible» la próxima vez que la abren con señal.
+
 **Probar en la computadora**
 
 ```bash
