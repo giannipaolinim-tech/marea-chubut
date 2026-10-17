@@ -1,6 +1,6 @@
 // Offline support: the whole app (code, data, tide tables, images) is cached on install.
 // Open-Meteo is network-first with cache fallback. Run tools/build_precache.py after edits.
-const VERSION = '2296fe3aaa1e'; // stamped by tools/build_precache.py
+const VERSION = '396394103d7a'; // stamped by tools/build_precache.py
 const PREFIX = 'marea-chubut-';
 const RUNTIME = 'marea-chubut-runtime';
 

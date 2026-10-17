@@ -1,7 +1,8 @@
 {
- "version": "2296fe3aaa1e",
+ "version": "396394103d7a",
  "files": [
   "./",
+  "app.webmanifest",
   "css/app.css",
   "data/excluded.json",
   "data/guide.json",
@@ -47,7 +48,6 @@
   "js/util.js",
   "js/water.js",
   "js/weather.js",
-  "manifest.json",
   "vendor/leaflet/leaflet.css",
   "vendor/leaflet/leaflet.js",
   "vendor/suncalc/suncalc.js"

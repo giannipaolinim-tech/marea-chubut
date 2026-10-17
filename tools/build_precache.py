@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 WEB = Path(__file__).resolve().parent.parent / "web"
-EXT = {".html", ".css", ".js", ".json", ".woff2", ".jpg", ".png", ".svg"}
+EXT = {".html", ".css", ".js", ".json", ".webmanifest", ".woff2", ".jpg", ".png", ".svg"}
 SKIP = {"sw.js", "precache.json"}
 # Species images are cached on first view by the service worker, not at install (L-08).
 SKIP_DIRS = ("img/species/",)

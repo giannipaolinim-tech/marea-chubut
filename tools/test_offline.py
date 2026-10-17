@@ -61,7 +61,7 @@ for p in json.loads((WEB / "data/tide_ports.json").read_text(encoding="utf-8"))[
 css = (WEB / "css/app.css").read_text(encoding="utf-8")
 for f in re.findall(r"url\(['\"]?\.\./([^'\")]+)", css):
     need(f, "font")
-for f in ["index.html", "manifest.json", "css/app.css", "vendor/suncalc/suncalc.js", "vendor/leaflet/leaflet.js",
+for f in ["index.html", "app.webmanifest", "css/app.css", "vendor/suncalc/suncalc.js", "vendor/leaflet/leaflet.js",
           "vendor/leaflet/leaflet.css", "geo/coast.json", "geo/coastline.json", "img/icon.svg", "img/icon-192.png", "img/icon-512.png"]:
     need(f, "shell")
 
