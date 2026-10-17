@@ -1,5 +1,6 @@
-# Publishes only the web/ folder (the app) to GitHub Pages on every push to main.
-name: Publicar en GitHub Pages
+# The app moved to https://marea-chubut.github.io/ (repository marea-chubut/marea-chubut.github.io).
+# This repository only publishes a redirect page and a service worker that retires the old one.
+name: Publicar redirección
 
 on:
   push:
@@ -23,16 +24,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Validar datos y modo sin conexión
-        run: |
-          python tools/validate_data.py
-          python tools/test_offline.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: web
+          path: .
       - id: deployment
         uses: actions/deploy-pages@v4
