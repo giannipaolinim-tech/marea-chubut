@@ -4,7 +4,7 @@ import { parseLocal } from './util.js';
 
 const FORECAST = 'https://api.open-meteo.com/v1/forecast';
 const MARINE = 'https://marine-api.open-meteo.com/v1/marine';
-const TTL = 60 * 60e3; // refetch after one hour
+const TTL = 15 * 60e3; // Open-Meteo refreshes current conditions every 15 minutes
 const TZ = 'timezone=America%2FArgentina%2FBuenos_Aires';
 
 function hourlyToSeries(hourly, keys) {
@@ -26,20 +26,22 @@ async function getJson(url) {
  * Wind (at the spot) + marine variables (at an offshore point) for one spot.
  * Resolves to { status: 'ok' | 'cached-offline' | 'cached-failed' | 'offline' | 'failed', wind, marine, fetchedAt }.
  */
-export async function pointForecast(windPt, marinePt = windPt) {
+export async function pointForecast(windPt, marinePt = windPt, { force = false } = {}) {
   const key = `p:${windPt.lat.toFixed(3)},${windPt.lon.toFixed(3)}|${marinePt.lat.toFixed(3)},${marinePt.lon.toFixed(3)}`;
   const cached = weatherCache.get(key);
-  if (cached && Date.now() - cached.fetchedAt < TTL) return { status: 'ok', ...cached };
+  if (!force && cached && Date.now() - cached.fetchedAt < TTL) return { status: 'ok', ...cached };
   const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
   if (offline) return cached ? { status: 'cached-offline', ...cached } : { status: 'offline' };
   try {
     const [wx, sea] = await Promise.all([
-      getJson(`${FORECAST}?latitude=${windPt.lat}&longitude=${windPt.lon}&${TZ}&past_days=1&forecast_days=16&hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m&wind_speed_unit=kmh`),
+      getJson(`${FORECAST}?latitude=${windPt.lat}&longitude=${windPt.lon}&${TZ}&past_days=1&forecast_days=16&hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m&current=wind_speed_10m,wind_gusts_10m,wind_direction_10m&wind_speed_unit=kmh`),
       getJson(`${MARINE}?latitude=${marinePt.lat}&longitude=${marinePt.lon}&${TZ}&past_days=1&forecast_days=8&hourly=wave_height,sea_surface_temperature,sea_level_height_msl`).catch(() => null),
     ]);
     const value = {
       wind: hourlyToSeries(wx.hourly, ['wind_speed_10m', 'wind_gusts_10m', 'wind_direction_10m']),
       marine: sea ? hourlyToSeries(sea.hourly, ['wave_height', 'sea_surface_temperature', 'sea_level_height_msl']) : [],
+      // Current conditions (15-minute model update), not a station observation.
+      current: wx.current?.time ? { t: parseLocal(wx.current.time), wind_speed_10m: wx.current.wind_speed_10m, wind_gusts_10m: wx.current.wind_gusts_10m, wind_direction_10m: wx.current.wind_direction_10m } : null,
       fetchedAt: Date.now(),
     };
     weatherCache.set(key, value);

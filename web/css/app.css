@@ -650,3 +650,11 @@ a.chip, .spot-row { min-height: 44px; }
 .mk-regulated-dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; border: 2px dashed var(--teal); flex: none; }
 
 .chart .gap-label--sm { font-size: 11px; }
+
+/* Install card, in-app browser warning, live wind */
+.install-card .install-btn { margin: 4px 0 10px; }
+.install-steps { margin: 0; }
+.iab-bar { position: fixed; left: 12px; right: 12px; top: calc(10px + env(safe-area-inset-top)); z-index: 96; display: flex; gap: 10px; align-items: center; padding: 10px 10px 10px 16px; border-radius: 16px; background: var(--signal); color: var(--abyss); font-size: 14px; box-shadow: var(--shadow); }
+.iab-bar span { flex: 1; }
+.iab-bar .icon-btn { color: var(--abyss); }
+.wind-now { margin-top: 10px; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--current); }

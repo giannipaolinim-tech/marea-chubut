@@ -1,6 +1,7 @@
 import { loadData } from './data.js';
 import { $, $$, h } from './util.js';
 import { settings } from './store.js';
+import { warnInAppBrowser } from './install.js';
 import { renderTide } from './screens/tide.js';
 import { renderMap } from './screens/map.js';
 import { renderSpot } from './screens/spot.js';
@@ -65,6 +66,7 @@ async function boot() {
   }
   window.addEventListener('hashchange', route);
   route();
+  warnInAppBrowser();
   // Offline cache. Skipped on localhost during development unless ?sw is in the URL.
   const dev = ['localhost', '127.0.0.1'].includes(location.hostname) && !location.search.includes('sw');
   if ('serviceWorker' in navigator && location.protocol !== 'file:' && !dev) {

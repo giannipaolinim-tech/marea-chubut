@@ -317,7 +317,11 @@ export async function renderTide(spotIdArg, dateArg) {
     const deg = row.wind_direction_10m ?? 0;
     const seaward = current.spot.orientation?.seaward;
     const rel = windVsCoast(deg, seaward);
-    card.innerHTML = `${head}
+    const cur = fc.current;
+    const nowHtml = cur && key === dayKey(now()) && now() - cur.t < 2 * HOUR
+      ? `<div class="wind-now"><span class="eyebrow">Ahora · ${fmtTime(cur.t)}</span> <b>${windText(cur.wind_speed_10m, unit)}</b> desde el ${dirName(cur.wind_direction_10m)} · ráfagas ${windText(cur.wind_gusts_10m, unit)}<br><span class="muted small">Se actualiza solo cada 15 minutos mientras la app está abierta.</span></div>`
+      : '';
+    card.innerHTML = `${head}${nowHtml}
       <div class="row" style="margin-top:10px;gap:16px">
         <svg class="wind-arrow" viewBox="0 0 56 56" style="transform:rotate(${deg + 180}deg)" role="img" aria-label="Viento desde el ${dirName(deg)}"><path d="M28 6 40 46 28 38 16 46Z"/></svg>
         <div class="stat"><span class="stat__v">${windText(row.wind_speed_10m, unit)}</span><span class="muted">desde el ${dirName(deg)} · ráfagas ${windText(row.wind_gusts_10m, unit)}</span></div>
@@ -360,7 +364,16 @@ export async function renderTide(spotIdArg, dateArg) {
   const onResize = () => { clearTimeout(rt); rt = setTimeout(() => { if (current) { renderStatic(); updateSelection(); } }, 200); };
   window.addEventListener('resize', onResize);
   load();
-  return () => { water?.destroy(); window.removeEventListener('resize', onResize); token++; };
+  // Keep the wind fresh while the screen is open (Open-Meteo updates every 15 minutes).
+  async function refreshWeather() {
+    if (document.hidden || !current?.spot || current.forecast?.status === 'loading') return;
+    const my = token;
+    const r = await pointForecast(current.pt, marinePoint(current.spot));
+    if (my === token && r.status === 'ok' && r.fetchedAt !== current.forecast?.fetchedAt) { current.forecast = r; renderStatic(); updateSelection(); }
+  }
+  const wxTimer = setInterval(refreshWeather, 5 * 60e3);
+  document.addEventListener('visibilitychange', refreshWeather);
+  return () => { water?.destroy(); window.removeEventListener('resize', onResize); clearInterval(wxTimer); document.removeEventListener('visibilitychange', refreshWeather); token++; };
 }
 
 export function indexInfo() {

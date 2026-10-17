@@ -1,5 +1,5 @@
 {
- "version": "4b21baec2101",
+ "version": "5d689b4d56d2",
  "files": [
   "./",
   "css/app.css",
@@ -31,6 +31,7 @@
   "js/chart.js",
   "js/data.js",
   "js/fishindex.js",
+  "js/install.js",
   "js/main.js",
   "js/screens/calendar.js",
   "js/screens/common.js",

@@ -5,6 +5,7 @@ import { eventsFor, heightAt, stateAt, hasOfficial, bundledRange, portInfo } fro
 import { moonDay } from '../astro.js';
 import { badge, fact, noData, alertBox, openModal } from '../ui.js';
 import { spotPoint } from './common.js';
+import { installCard } from '../install.js';
 
 /**
  * Editorial page: big title, lede, numbered sections with an index (sticky on desktop).
@@ -46,8 +47,11 @@ export function renderMore() {
   ];
   $('#main').append(h(`<div class="wrap"><h1 class="page-title">Más</h1>
     <p class="page-lede">Antes de tirar la línea: permiso, marea y avisarle a alguien a dónde vas.</p>
+    <div class="install-slot"></div>
     <nav class="menu section" aria-label="Secciones">${items.map(([href, n, t, d]) => `<a href="${href}"><span class="menu__n">${n}</span><b>${t}</b><span>${d}</span></a>`).join('')}</nav>
     <p class="muted small" style="padding-bottom:30px">Mareas: predicciones oficiales del Servicio de Hidrografía Naval (SHN). Viento y oleaje: Open-Meteo (modelo, no oficial). Sol y luna: cálculo astronómico (SunCalc).</p></div>`));
+  const card = installCard();
+  if (card) $('.install-slot').append(card);
 }
 
 /* ---------------- Bitácora (L-05) ---------------- */
