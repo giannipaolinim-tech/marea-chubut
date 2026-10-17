@@ -1,0 +1,2190 @@
+
+
+
+
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+
+
+			<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>SHN | Servicio de Hidrografía Naval</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<link rel="icon" type="image/png" href="/assets/images/favicon.ico" />
+		
+	  	<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+
+
+
+       <!-- PONCHO CSS:
+    Recomendamos que descargues o instales 'ar-poncho' en tu proyecto.
+    <link href="{{ '/node_modules/ar-poncho/dist/css/roboto-fontface.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/node_modules/ar-poncho/dist/css/poncho.min.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/node_modules/ar-poncho/dist/css/documentacion.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/node_modules/ar-poncho/dist/icono-arg.css' | prepend: site.baseurl }}" rel="stylesheet">
+    Al solo efecto de esta documentación, usaremos los estilos en línea en el proyecto GitHub Poncho
+  -->
+
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/encode-fontface.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/poncho.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/documentacion.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/icono-arg.css" rel="stylesheet">
+
+
+ <!-- FIN PONCHO -->
+
+
+
+
+
+
+		
+           <!-- Bootstrap  -->
+
+
+
+        <link rel="stylesheet" href="/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/dist/css/poncho.css">
+        <link rel="stylesheet" href="/dist/css/argentina.css">
+
+   <!--    <link rel="stylesheet" href="dist/css/PROPIOS.css"> -->
+
+      <!-- font-awesome  -->
+
+  <link rel="stylesheet" href="/dist/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/dist/css/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/dist/css/droid-serif.css">
+  <link rel="stylesheet" href="/dist/css/roboto-fontface.css">
+
+
+      <link rel="stylesheet" href="/dist/css/PROPIOS.css">
+
+
+
+
+
+
+ 
+
+
+
+   </head>
+
+  <body>
+
+    <header>
+
+
+
+
+
+<script language="Javascript">
+	function Imprimir() {
+		window.parent.main.focus();  // main es el nombre del iframe (o el nombre del iframe o frame que asignes.
+		window.print();
+}
+</script>
+
+
+
+<style>
+
+
+
+div.LetraMasChica{
+
+ font-family: monospace; 
+
+}
+
+
+.imglogoprint{
+display: none;
+}
+
+
+
+
+@media print {
+
+.imglogoprint{
+display: contents;
+}
+
+.noimprimir{
+display: none;
+}
+
+
+td{
+   height: 10px;
+}
+
+
+.smaller{
+font-size: 14px;
+
+}
+
+.superiorderecha{
+
+float: right;
+
+}
+
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 2px;
+    line-height: 1;
+    border-top: 1px solid #ddd;  
+}
+
+
+
+div.LetraMasChica{
+
+font-size: smaller; 
+font-family: monospace;
+
+
+}
+
+
+
+
+.SaltoDePagina
+ {
+     PAGE-BREAK-AFTER: always
+ }
+
+}
+
+
+
+</style>
+
+
+
+
+ </header>
+
+<main id="main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+
+
+<article class="container content_format">  
+
+    <div class="col-md-8 col-md-offset-2">
+
+
+
+
+
+<div>
+
+
+
+
+
+<div class="noimprimir">
+
+<a class="btn btn-link" href="javascript:Imprimir();">Imprimir</a> 
+
+</div>
+
+
+<div class="imglogoprint">
+
+<img src="/assets/images/logo_SHN.svg" height="70">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="superiorderecha">
+
+<h3>FONDEADERO SAN ROMÁN (Golfo San José)</h3>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<P>Carta/s Argentina/s: H-277
+
+- ENC/CNE AR202140 y AR302170
+</P>
+
+<P>Lat. 42º 15' S  Long. 64º 14' W</P>
+<P>Huso Horario: +3 </P>
+
+<P>Régimen de marea: Semidiurno</p>
+
+<P>Establecimiento de puerto medio: Xh 27min</p>
+
+<P>Nivel medio: 4,53 m</p>
+
+
+
+
+<P>Las alturas están referidas al plano de reducción que pasa 4,53 m debajo del nivel medio. Para utilizar la carta náutica de referencia H-277, donde se indica que el nivel medio de fondeadero San Román (Golfo San José) pasa 4,11 m sobre el plano de reducción, se les debe restar a estas predicciones 0,42 m para aplicarlos a los sondajes indicados en la misma.</p>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+<table class="table table-bordered" summary="La tabla muestra las alturas en metros sobre el plano de reducción (pleamar, bajamar y amplitud)">
+<thead>
+
+          <tr>
+            <td colspan="4">Alturas en metros sobre el plano de reducci&oacute;n, <br />
+            correspondientes a la predicci&oacute;n <strong>2026</strong> </td>
+            <td colspan="2" rowspan="2">&nbsp;&nbsp;&nbsp;Amplitud
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">Pleamar </td>
+            <td colspan="2">Bajamar </td>
+          </tr>
+          <tr>
+            <td colspan="1">M&aacute;xima </td>
+            <td colspan="1">Media </td>
+            <td colspan="1">M&aacute;s baja </td>
+            <td colspan="1">Media </td>
+            <td colspan="1">M&aacute;xima </td>
+            <td colspan="1">Media </td>
+          </tr>
+
+</thead>
+
+
+
+<tbody>
+          <tr>
+            <td colspan="1">8,71 </td>
+            <td colspan="1">7,41 </td>
+            <td colspan="1">0,31 </td>
+            <td colspan="1">1,63 </td>
+            <td colspan="1">8,36 </td>
+            <td colspan="1">5,78 </td>
+          </tr>
+        </tbody>
+</table>
+
+
+
+
+
+
+
+
+<h3>Predicciones de las Pleamares y Bajamares para:  <span CLASS="text-primary">febrero/2026</span></h3>
+
+
+
+
+<DIV class="LetraMasChica">
+
+<div class="row panels-row">
+  <div class="col-xs-6 col-sm-12 col-md-6">
+
+      <div class="panel-body">
+
+
+
+
+<table class="table table-striped">
+          <caption></caption>
+<thead>
+  <tr> 
+    <th>DIA</th>
+    <th>HORA:MIN</th>
+    <th>ALTURA (m)</th>
+  </tr>
+</thead>
+
+<tbody>
+
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+01
+
+</td>
+
+<td>05:15</td>
+<td>1,08</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>11:22</td>
+<td>7,63</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>17:38</td>
+<td>1,42</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>23:41</td>
+<td>8,07</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+02
+
+</td>
+
+<td>06:11</td>
+<td>0,79</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>12:17</td>
+<td>7,88</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>18:33</td>
+<td>1,19</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+03
+
+</td>
+
+<td>00:34</td>
+<td>8,25</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>07:02</td>
+<td>0,57</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>13:07</td>
+<td>8,05</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>19:22</td>
+<td>1,03</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+04
+
+</td>
+
+<td>01:22</td>
+<td>8,34</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>07:49</td>
+<td>0,48</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>13:53</td>
+<td>8,13</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>20:09</td>
+<td>0,98</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+05
+
+</td>
+
+<td>02:07</td>
+<td>8,30</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>08:33</td>
+<td>0,54</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>14:37</td>
+<td>8,07</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>20:52</td>
+<td>1,05</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+06
+
+</td>
+
+<td>02:50</td>
+<td>8,13</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>09:15</td>
+<td>0,74</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>15:18</td>
+<td>7,90</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>21:35</td>
+<td>1,24</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+07
+
+</td>
+
+<td>03:32</td>
+<td>7,84</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>09:56</td>
+<td>1,08</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>15:58</td>
+<td>7,62</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>22:16</td>
+<td>1,53</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+08
+
+</td>
+
+<td>04:13</td>
+<td>7,46</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>10:37</td>
+<td>1,50</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>16:38</td>
+<td>7,28</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>22:58</td>
+<td>1,89</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+09
+
+</td>
+
+<td>04:55</td>
+<td>7,02</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>11:17</td>
+<td>1,97</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>17:19</td>
+<td>6,91</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>23:42</td>
+<td>2,26</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+10
+
+</td>
+
+<td>05:40</td>
+<td>6,58</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>12:00</td>
+<td>2,44</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>18:04</td>
+<td>6,57</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+11
+
+</td>
+
+<td>00:30</td>
+<td>2,60</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>06:30</td>
+<td>6,18</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>12:47</td>
+<td>2,85</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>18:54</td>
+<td>6,28</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+12
+
+</td>
+
+<td>01:24</td>
+<td>2,86</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>07:28</td>
+<td>5,89</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>13:42</td>
+<td>3,14</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>19:51</td>
+<td>6,12</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+13
+
+</td>
+
+<td>02:27</td>
+<td>2,96</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>08:34</td>
+<td>5,78</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>14:46</td>
+<td>3,26</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>20:53</td>
+<td>6,13</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+14
+
+</td>
+
+<td>03:32</td>
+<td>2,88</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>09:38</td>
+<td>5,87</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>15:50</td>
+<td>3,18</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>21:52</td>
+<td>6,31</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+15
+
+</td>
+
+<td>04:30</td>
+<td>2,63</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>10:33</td>
+<td>6,14</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>16:47</td>
+<td>2,91</td>
+</tr>
+
+
+
+
+
+<tr>
+<td CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>22:43</td>
+<td>6,62</td>
+</tr>
+
+
+
+
+
+
+</tbody>
+  </table>
+
+
+</DIV>
+
+     
+    </div>
+
+
+
+  <div class="col-xs-6 col-sm-12 col-md-6">
+   
+      <div class="panel-body">
+
+<table class="table table-striped">
+          <caption></caption>
+<thead>
+  <tr> 
+    <th>DIA</th>
+    <th>HORA:MIN</th>
+    <th>ALTURA (m)</th>
+  </tr>
+</thead>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+16
+
+</td>
+
+<td>05:19</td>
+<td>2,27</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>11:19</td>
+<td>6,51</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>17:34</td>
+<td>2,53</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>23:29</td>
+<td>7,02</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+17
+
+</td>
+
+<td>06:03</td>
+<td>1,86</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>12:01</td>
+<td>6,94</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>18:17</td>
+<td>2,10</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+18
+
+</td>
+
+<td>00:12</td>
+<td>7,44</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>06:42</td>
+<td>1,46</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>12:40</td>
+<td>7,38</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>18:58</td>
+<td>1,66</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+19
+
+</td>
+
+<td>00:53</td>
+<td>7,82</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>07:21</td>
+<td>1,09</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>13:20</td>
+<td>7,79</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>19:38</td>
+<td>1,28</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+20
+
+</td>
+
+<td>01:34</td>
+<td>8,14</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>08:01</td>
+<td>0,82</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>14:00</td>
+<td>8,10</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>20:19</td>
+<td>0,99</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+21
+
+</td>
+
+<td>02:16</td>
+<td>8,32</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>08:41</td>
+<td>0,67</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>14:41</td>
+<td>8,30</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>21:01</td>
+<td>0,82</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+22
+
+</td>
+
+<td>02:59</td>
+<td>8,37</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>09:23</td>
+<td>0,66</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>15:24</td>
+<td>8,34</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>21:45</td>
+<td>0,81</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+23
+
+</td>
+
+<td>03:45</td>
+<td>8,25</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>10:07</td>
+<td>0,80</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>16:10</td>
+<td>8,24</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>22:33</td>
+<td>0,93</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+24
+
+</td>
+
+<td>04:35</td>
+<td>8,00</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>10:56</td>
+<td>1,07</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>17:01</td>
+<td>8,02</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>23:26</td>
+<td>1,15</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+25
+
+</td>
+
+<td>05:30</td>
+<td>7,65</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>11:50</td>
+<td>1,42</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>17:58</td>
+<td>7,73</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+26
+
+</td>
+
+<td>00:25</td>
+<td>1,41</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>06:34</td>
+<td>7,32</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>12:51</td>
+<td>1,76</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>19:03</td>
+<td>7,47</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+27
+
+</td>
+
+<td>01:32</td>
+<td>1,61</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>07:45</td>
+<td>7,10</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>14:02</td>
+<td>1,97</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>20:15</td>
+<td>7,36</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+28
+
+</td>
+
+<td>02:45</td>
+<td>1,64</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>09:00</td>
+<td>7,10</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>15:15</td>
+<td>1,98</td>
+</tr>
+
+
+
+
+
+<tr>
+<td  CLASS="text-primary">
+
+
+
+
+</td>
+
+<td>21:26</td>
+<td>7,44</td>
+</tr>
+
+
+
+
+
+</tbody>
+  </table>
+
+  </div>
+
+</div>
+          
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</DIV>
+
+
+<!-- ***************  FIN  DEL INCLUDE A IMPRIMIR *************  -->
+
+
+
+
+
+
+
+
+
+
+  </article>  
+
+
+
+
+</section>
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+  </body>
+</html>

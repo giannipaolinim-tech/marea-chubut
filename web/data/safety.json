@@ -1,0 +1,157 @@
+{
+ "verified": "2026-10-16",
+ "emergency": [
+  {
+   "number": "106",
+   "label": "Emergencia náutica (Prefectura)",
+   "c": "oficial",
+   "s": [
+    "argentina-emergencias"
+   ],
+   "primary": true
+  },
+  {
+   "number": "107",
+   "label": "Emergencia médica",
+   "c": "oficial",
+   "s": [
+    "ley-xix-77",
+    "madryn-recom"
+   ],
+   "primary": true
+  },
+  {
+   "number": "101",
+   "label": "Policía",
+   "c": "oficial",
+   "s": [
+    "ley-xix-77",
+    "madryn-recom"
+   ],
+   "primary": true
+  },
+  {
+   "number": "100",
+   "label": "Bomberos",
+   "c": "oficial",
+   "s": [
+    "ley-xix-77",
+    "madryn-recom"
+   ]
+  },
+  {
+   "number": "103",
+   "label": "Defensa Civil",
+   "c": "oficial",
+   "s": [
+    "ley-xix-77",
+    "madryn-recom"
+   ]
+  },
+  {
+   "number": "911",
+   "label": "Emergencias coordinadas (figura en la Ley XIX Nº 77; funcionamiento actual en Chubut no verificado)",
+   "c": "oficial",
+   "s": [
+    "ley-xix-77"
+   ],
+   "unconfirmed": true
+  },
+  {
+   "number": "02804451603",
+   "display": "(0280) 445-1603 / 445-4200",
+   "label": "Prefectura Puerto Madryn",
+   "c": "oficial",
+   "s": [
+    "a-pna-sanidad",
+    "a-weekend-pna-2019"
+   ]
+  },
+  {
+   "number": "02974464018",
+   "display": "(0297) 446-4018 / 447-3863",
+   "label": "Prefectura Comodoro Rivadavia (figura en un listado de Sanidad de Prefectura; puede no ser la guardia)",
+   "c": "oficial",
+   "s": [
+    "a-pna-sanidad"
+   ],
+   "unconfirmed": true
+  },
+  {
+   "number": "08008887730",
+   "display": "0800-888-7730",
+   "label": "Prefectura Naval, sede central (lunes a viernes de 9 a 17)",
+   "c": "oficial",
+   "s": [
+    "a-pna-portal"
+   ]
+  }
+ ],
+ "general": [
+  {
+   "t": "Las tablas del SHN no incluyen el efecto del viento ni de la presión: con temporal la marea puede subir más o adelantarse.",
+   "c": "oficial",
+   "s": [
+    "shn-generalidades"
+   ]
+  },
+  {
+   "t": "En Puerto Madryn la amplitud de marea llegó a 5,04 m en 2026 y en Comodoro a 5,75 m. La creciente avanza rápido sobre playas planas y restingas.",
+   "c": "oficial",
+   "s": [
+    "shn-tablas"
+   ]
+  },
+  {
+   "t": "Tené en cuenta las mareas al caminar por las playas o dejar el auto cerca de la costa.",
+   "c": "oficial",
+   "s": [
+    "piramides-recom"
+   ]
+  },
+  {
+   "t": "No hay señal de celular en el recorrido interno de Península Valdés.",
+   "c": "oficial",
+   "s": [
+    "pv-recom"
+   ]
+  }
+ ],
+ "hazards": [
+  {
+   "spot": "caleta-cordova",
+   "t": "Caleta Córdova: 9 personas aisladas por la creciente cerca del Faro San Jorge (2021).",
+   "c": "oficial",
+   "s": [
+    "pna-caleta-cordova-2021",
+    "baenegocios-2021"
+   ]
+  }
+ ],
+ "wildlife": [
+  {
+   "t": "Elefantes marinos: la Ley XI Nº 92 manda incluir una franja de 50 m de no aproximación en el plan de manejo de la especie (todavía no aprobado). Mantené al menos 50 m.",
+   "c": "oficial",
+   "s": [
+    "bo-2025-05-20"
+   ]
+  },
+  {
+   "t": "Elefantes marinos: la Ley XI Nº 92 manda incluir una franja de 50 m de no aproximación en el plan de manejo de la especie (todavía no aprobado). Mantené al menos 50 m.",
+   "c": "oficial",
+   "s": [
+    "pv-plan"
+   ]
+  },
+  {
+   "t": "Monumentos Naturales (ballena jorobada y sei, lobo marino de dos pelos, tonina overa, gatopardo, entre otros): prohibido el acoso.",
+   "c": "oficial",
+   "s": [
+    "bo-2025-05-20"
+   ]
+  }
+ ],
+ "notes": [
+  "Pingüinos: no encontramos una distancia oficial. Mantené distancia y no interfieras con su paso."
+ ]
+}

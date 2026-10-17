@@ -1,0 +1,876 @@
+
+
+
+
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+
+
+
+	
+
+			<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>SHN | Servicio de Hidrografía Naval</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<link rel="icon" type="image/png" href="/assets/images/favicon.ico" />
+		
+	  	<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+
+
+
+       <!-- PONCHO CSS:
+    Recomendamos que descargues o instales 'ar-poncho' en tu proyecto.
+    <link href="{{ '/node_modules/ar-poncho/dist/css/roboto-fontface.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/node_modules/ar-poncho/dist/css/poncho.min.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/node_modules/ar-poncho/dist/css/documentacion.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/node_modules/ar-poncho/dist/icono-arg.css' | prepend: site.baseurl }}" rel="stylesheet">
+    Al solo efecto de esta documentación, usaremos los estilos en línea en el proyecto GitHub Poncho
+  -->
+
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/encode-fontface.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/poncho.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/documentacion.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/argob/poncho@master/dist/css/icono-arg.css" rel="stylesheet">
+
+
+ <!-- FIN PONCHO -->
+
+
+
+
+
+
+		
+           <!-- Bootstrap  -->
+
+
+
+        <link rel="stylesheet" href="/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/dist/css/poncho.css">
+        <link rel="stylesheet" href="/dist/css/argentina.css">
+
+   <!--    <link rel="stylesheet" href="dist/css/PROPIOS.css"> -->
+
+      <!-- font-awesome  -->
+
+  <link rel="stylesheet" href="/dist/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/dist/css/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/dist/css/droid-serif.css">
+  <link rel="stylesheet" href="/dist/css/roboto-fontface.css">
+
+
+      <link rel="stylesheet" href="/dist/css/PROPIOS.css">
+
+
+
+
+
+
+ 
+
+
+<style>
+
+
+.breadcrumb li, .breadcrumb li a, .breadcrumb>li+li:before, .breadcrumb>.active {
+      color: #337ab7  !important; 
+     }
+  
+.borde{
+ border-style: solid;
+  border-width: 1px;
+  border-color: #0072bb;
+}
+
+
+.ancho40{
+
+    width: 300px;
+}
+
+
+
+iframe{
+margin-top:5%;
+padding-top:5%;
+border: 0px;
+border-top: 1px solid #cccccc;
+width: 100%;
+height: 450px;
+
+}
+
+
+form{
+
+width: 80%;
+margin: auto;
+padding: 3px;
+}
+
+
+
+.table>thead>tr>td, .table>thead>tr>th {
+
+    FONT-SIZE: small;
+}
+
+
+
+</style>
+
+
+
+    </head>
+
+
+
+
+  <body>
+
+     <header>
+
+
+            		<a href="#main" class="skipcontenido">
+  Salta al contenido
+</a>
+
+
+           <nav class="navbar navbar-top navbar-default bordeinferior">
+				
+					<div class="container">
+						
+						
+						<div class="navbar-header">
+                        
+ 
+	                        <a class="navbar-brand" href="/" accesskey="1">
+	                            <img alt="Servicio de Hidrografia Naval" src="/assets/images/Logo_shn_RepArg.svg" height="49">
+	                            <h1 class="sr-only"><small>Servicio de Hidrografía Naval</small></h1>
+	                        </a>
+
+
+	                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+	                            <span class="sr-only">Toggle navigation</span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                        </button>
+                    	</div>
+							
+						
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2"  >
+						<ul class="nav navbar-nav navbar-right" >
+
+
+							<li class="dropdown" >
+							<a href="#" aria-expanded="false" accesskey="2" class="dropdown-toggle" data-toggle="dropdown"> productos y servicios <span class="caret"></span></a>
+
+								<ul class="dropdown-menu submenu" role="menu">
+
+		                                <div>
+		                                                             
+		                                    <div>
+<UL class="sinbullets">
+
+		                                        <li><a href="http://geoportal.shn.gob.ar/#/geoportal" target="_blank">Geoportal</a></li>
+		                                        <li><a href="/ServiciosNauticos.asp">Servicios Náuticos</a></li>
+		                                        <li><a href="/ModelosPronosticos.asp">Modelos y Pronósticos</a></li>
+		                                        <li><a href="/Smara/glacio/sglaciologica.asp">Servicios de Hielo</a></li>
+		                                        <li><a href="/Observatorio/Astronomia.asp">Astronomía</a></li>
+		                                        <li><a href="/Observatorio/LaHora.asp">Hora Oficial y Frecuencia Patrón</a></li>
+
+</UL>		                                       
+		                                  </div>
+		                              
+		                                </div>
+
+
+		                                
+		                                <div>
+
+
+		                                
+		                                <div>
+
+
+		                                
+
+		                                
+		                            </ul>
+
+					</li>
+
+
+							
+					<li class="">
+					<a href="/Institucional/Institucional.asp" aria-expanded="false" class="" data-toggle="" accesskey="3"> institucional </a>
+
+
+					</li>
+
+
+ 							<li class="">
+							<a href="/ID/ID.asp" aria-expanded="false" class="" data-toggle="" accesskey="4"> I + D </a>
+								
+							</li>
+
+							<li class="">
+							 <a href="/DA/DatosAbiertos.asp" aria-expanded="false" class="" data-toggle="" accesskey="5"> Datos Abiertos </a>
+
+							</li>
+
+
+						
+
+							<li class="">
+							 <a href="/contactos/contactos.asp" aria-expanded="false" class="" data-toggle="" accesskey="6"> Contactos </a>
+
+							</li>
+
+
+						
+
+							<li class="">
+							 <a href="/ventas/ventas.asp" aria-expanded="false" class="" data-toggle="" accesskey="7"> ventas </a>
+
+							</li>
+
+
+
+							<li class="">
+
+							<a class="fa fa-download" accesskey="8" title="Descargas" aria-hidden="true" href="/download/download.asp"></a>
+
+							</li>
+
+
+
+
+							<li class="">
+
+							<a class="fa fa-search" accesskey="9" title="Buscador" aria-hidden="true" href="/buscador/tbuscador.asp"></a>
+
+							</li>
+
+
+
+
+
+
+
+							<li class="">
+
+							<a class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/shn_argentina/?utm_medium=copy_link" title="Seguinos en Instagram"></a>
+
+							</li>
+
+
+
+
+
+
+
+							
+						</ul>
+							
+						</div>
+						
+
+					</div>
+
+
+				
+			</nav>
+
+
+
+
+
+    <script src="/dist/js/jquery.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+
+      })
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+    <main id="main">
+      <div class="container">
+
+	
+
+  <ol class="breadcrumb">
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/ServiciosNauticos.asp">Servicios Náuticos</a></li>
+    <li class="active">Tablas de Marea</li>
+  </ol>
+
+  <section>
+    <div class="row">
+      <article class="content_format col-md-8 col-md-push-4">
+
+        <h1>Tablas de Marea</h1>
+        <div class="row">
+          <div class="section-actions social-share">
+
+  <p>Compartir en <br> redes sociales</p>
+
+	  <ul class="list-inline">
+    <li><a href="http://www.facebook.com/sharer/sharer.php?u=http://www.hidro.gob.ar/oceanografia/Tmareas/Form_TMareas.asp?op=11" title="Compartir en Facebook"><span class="icono-arg-facebook-f-"></span></a></li>
+    <li><a href="https://twitter.com/share" title="Compartir en Twitter"><span class="icono-arg-twitter-pajaro"></span></a></li>
+ 
+  </ul>
+
+</div>
+
+        </div>
+        <hr>
+
+
+
+
+
+<h2>Glosario de Términos Utilizados</h2>
+
+
+	
+
+
+
+
+<p>Se incorpora un glosario que contiene los principales términos técnicos utilizados y
+algunos de los necesarios para definir a los primeros.</p>
+
+<p>Los términos a definir se encuentran resaltados y ordenados alfabéticamente. Si en la
+definición de un término se utiliza otro que está incluido en este glosario, figura impreso
+en letras mayúsculas.</p>
+
+
+<p><strong>Afelio.-</strong> El punto más lejano al Sol, de una órbita descripta alrededor de éste, cuando el
+Sol es el centro de atracción. En la terminología mareológica se suele utilizar esta
+expresión para señalar al punto de la órbita de la Tierra más lejano al Sol. Su opuesto
+es el PERIHELIO.</p>
+
+<p><strong>Altura de la bajamar.-</strong> Distancia vertical entre el menor nivel alcanzado por una MAREA
+BAJANTE y el PLANO DE REDUCCIÓN o nivel que se especifique.</p>
+
+<p><strong>Altura de la marea.-</strong> Distancia vertical entre la superficie del mar y el PLANO DE
+REDUCCIÓN o nivel que se especifique, para un instante determinado.</p>
+
+<p><strong>Altura de la pleamar.-</strong> Distancia vertical entre el nivel más alto alcanzado por una
+MAREA CRECIENTE y el PLANO DE REDUCCIÓN o nivel que se especifique.</p>
+
+<p><strong>Amplitud de la bajante.-</strong> Diferencia de altura entre una PLEAMAR y BAJAMAR
+consecutivas, en una MAREA BAJANTE.</p>
+
+<p><strong>Amplitud de la creciente.-</strong> Diferencia de altura entre una BAJAMAR y PLEAMAR
+consecutivas, en una MAREA CRECIENTE.</p>
+
+<p><strong>Amplitud de la componente.-</strong> La mitad de la diferencia de altura existente entre un
+máximo y un mínimo consecutivos de una ONDA COMPONENTE DE MAREA, en un
+lugar dado.</p>
+
+<p><strong>Amplitud de la marea.-</strong> Diferencia de altura entre una PLEAMAR y la BAJAMAR que le
+sigue.</p>
+
+<p><strong>Amplitudes de perigeo.-</strong> Ver MAREA DE PERIGEO.</p>
+
+<p><strong>Amplitudes equinocciales de perigeo.-</strong> Ver MAREA EQUINOCCIAL DE PERIGEO.</p>
+
+<p><strong>Amplitudes medias.-</strong> Es la media aritmética de todas las amplitudes de la marea
+durante un CICLO DE METÓN.</p>
+
+<p><strong>Análisis armónico de marea.-</strong> Proceso mediante el cual se logra separar en
+componentes armónicas elementales la MAREA o CORRIENTE DE MAREA
+observada en un lugar (Ver COMPONENTE ARMÓNICA DE MAREA).</p>
+
+<p><strong>Apogeo.-</strong> El punto más lejano a la Tierra, de una órbita descripta alrededor de ésta,
+cuando la Tierra es el centro de atracción. En la terminología mareológica se suele
+utilizar esta expresión para señalar al punto de la órbita de la Luna más lejano a la
+Tierra. Su opuesto es el PERIGEO.</p>
+
+
+<p><strong>Bajamar.-</strong> Nivel mínimo alcanzado por una MAREA BAJANTE.</p>
+
+<p><strong>Bajamar astronómica más baja.-</strong> La marea más baja que puede ocurrir en condiciones
+meteorológicas medias y en cualquier condición astronómica. Se obtiene al realizar
+una predicción de MAREA ASTRONÓMICA de 19 años de duración. Se denota como
+LAT debido a la expresión en inglés “Lowest Astronomical Tide”.</p>
+
+<p><strong>Bajamares de perigeo.-</strong> Ver MAREA DE PERIGEO.</p>
+
+<p><strong>Bajamares equinocciales de perigeo.-</strong> Ver MAREA EQUINOCCIAL DE PERIGEO.</p>
+
+<p><strong>Bajamares medias.-</strong> La ALTURA DE LA BAJAMAR media es la media aritmética de
+todas las bajamares durante un CICLO DE METÓN.</p>
+
+<p><strong>Bajamares trópicas.-</strong> Ver MAREA TRÓPICA.</p>
+
+<p><strong>Carta.-</strong> Mapa con fines específicos, generalmente destinados a la navegación (Ver
+CARTA NÁUTICA o marina) o a otro propósito en particular.</p>
+
+<p><strong>Carta náutica.-</strong> CARTA especialmente diseñada para satisfacer los requerimientos de la
+navegación marítima y que indica las PROFUNDIDADES del agua, la naturaleza del
+fondo, las elevaciones, la configuración y la característica de la COSTA, peligros y
+ayudas a la navegación. También se denomina carta hidrográfica o simplemente
+CARTA.</p>
+
+<p><strong>Ciclo de Metón.-</strong> Un período de 19 años después del cual las FASES DE LA LUNA se
+producen aproximadamente en las mismas fechas que en el ciclo precedente. Ciclo de
+repetición de las FASES DE LA LUNA.</p>
+
+<p><strong>Círculo horario.-</strong> Círculo máximo de la ESFERA CELESTE que pasa por los POLOS
+CELESTES.</p>
+
+<p><strong>Componente armónica de marea.-</strong> Cada uno de los elementos armónicos en la
+expresión matemática de la FUERZA GENERADORA DE MAREA y en las fórmulas
+correspondientes de la MAREA o CORRIENTE DE MAREA. Cada componente
+representa un cambio periódico o variación en las posiciones relativas de la Tierra, la
+Luna y el Sol.</p>
+
+<p><strong>Componentes diurnas.-</strong> Son las ondas componentes de la marea (Ver ONDA
+COMPONENTE DE MAREA) que tienen períodos cercanos a las veinticuatro horas.</p>
+<p>Las principales componentes diurnas son:</p>
+
+<ul>
+
+<li><p>K<sub>1</sub> (componente lunisolar declinacional diurna)</p></li>
+<li><p>O<sub>1</sub> (componente lunar principal declinacional diurna)</p></li>
+<li><p>P<sub>1</sub> (componente solar principal declinacional diurna)</p></li>
+<li><p>Q<sub>1</sub> (componente lunar elíptica mayor diurna)</p></li>
+<li><p>S<sub>1</sub> (componente meteorológica diurna)</p></li>
+<li><p>M<sub>1</sub> (componente lunar elíptica menor diurna)</p></li>
+</ul>
+
+
+<p><strong>Componentes semidiurnas.-</strong> Son las ondas componentes de la marea (Ver ONDA COMPONENTE DE MAREA) que tienen períodos cercanos a las doce horas. Las principales componentes semidiurnas son:</p>
+
+
+<ul>
+<li><p>M<sub>2</sub> (componente lunar principal semidiurna)</p></li>
+<li><p>N<sub>2</sub> (componente lunar elíptica mayor semidiurna)</p></li>
+<li><p>L<sub>2</sub> (componente lunar elíptica menor semidiurna)</p></li>
+<li><p>K<sub>2</sub> (componente lunisolar declinacional semidiurna)</p></li>
+<li><p>S<sub>2</sub> (componente solar principal semidiurna)</p></li>
+<li><p>v<sub>2</sub> (componente lunar eveccional mayor semidiurna)</p></li>
+<li><p>&#181;<sub>2</sub> (componente lunar variacional semidiurna)</p></li>
+<li><p>2N<sub>2</sub> (componente lunar elíptica de segundo orden semidiurna)</p></li>
+</ul>
+
+<p><strong>Constantes armónicas.-</strong> Reciben esta denominación la AMPLITUD DE LA COMPONENTE y la ÉPOCA DE LA COMPONENTE.</p>
+
+<p><strong>Constantes de marea.-</strong> Valores obtenidos utilizando OBSERVACIONES DE MAREA, que permanecen prácticamente constantes para cualquier localidad determinada. Las constantes de marea se clasifican en armónicas y no armónicas (Ver CONSTANTES ARMÓNICAS y CONSTANTES NO ARMÓNICAS).</p>
+
+<p><strong>Constantes no armónicas.-</strong> Aquellas, tales como el INTERVALO LUNA MAREA, la AMPLITUD DE LA MAREA, DESIGUALDAD, etc. que pueden obtenerse directamente de las OBSERVACIONES DE MAREA, sin tener en cuenta las componentes armónicas de la marea (Ver COMPONENTE ARMÓNICA DE MAREA).</p>
+
+<p><strong>Corriente de marea.-</strong> Movimiento horizontal periódico de las aguas, asociado a la variación del nivel del mar, debido a la FUERZA GENERADORA DE MAREA.</p>
+
+<p><strong>Costa.-</strong> Banda de tierra próxima al mar. También se define como la zona de contacto entre la tierra y el mar (orilla del mar, frontera del mar).</p>
+
+<p><strong>Cuadratura.-</strong> Posición de la Luna cuando es cuarto creciente o cuarto menguante (Ver FASES DE LA LUNA).</p>
+
+<p><strong>Cuerpo celeste.-</strong> Constituye una unidad para los estudios astronómicos, tales como el Sol, la Luna, los Planetas, estrellas fijas, cometas, etc. También se lo denomina astro.</p>
+
+<p><strong>Declinación.-</strong> En astronomía, el ángulo medio desde el centro de la ESFERA CELESTE, entre un radio que pasa por un CUERPO CELESTE y el plano del ECUADOR CELESTE. La declinación es medida por el arco de CÍRCULO HORARIO comprendido entre el CUERPO CELESTE y el ECUADOR CELESTE. Es positiva
+cuando el cuerpo está al Norte del ECUADOR CELESTE y negativa cuando está al Sur.</p>
+
+<p><strong>Desigualdad.-</strong> Desviación sistemática del valor medio de una cantidad. (Ver: DESIGUALDAD ANUAL, DESIGUALDAD DE FASE, DESIGUALDAD DE PARALAJE, DESIGUALDAD DIURNA).</p>
+
+
+<p><strong>Desigualdad anual.-</strong> Variaciones más o menos periódicas del nivel del agua o velocidad de la CORRIENTE DE MAREA, que se producen con los cambios de estación, y debidas principalmente a causas meteorológicas.</p>
+
+<p><strong>Desigualdad de fase.-</strong> Variaciones de la MAREA o CORRIENTE DE MAREA asociadas a los cambios de FASES DE LA LUNA.</p>
+
+<p><strong>Desigualdad de paralaje.-</strong> Variación en la AMPLITUD DE LA MAREA o en la velocidad de la CORRIENTE DE MAREA, debida a los cambios en la distancia Tierra - Luna.</p>
+
+<p><strong>Desigualdad diurna.-</strong> Diferencia de altura entre las dos pleamares o las dos bajamares de cada día. El promedio de las desigualdades diurnas, en los días de marea trópicas, correspondientes a las pleamares y a las bajamares se conocen con el nombre de desigualdad de pleamar trópica y desigualdad de bajamar trópica respectivamente. La mitad del promedio de las diferencias entre las alturas de las dos pleamares diarias, durante un período de 19 años, se denomina desigualdad media diurna de pleamares.
+Desigualdad media diurna de bajamares es la mitad del promedio de las diferencias entre las alturas de las dos bajamares diarias, durante un período de 19 años. (Ver:
+PLEAMAR, BAJAMAR, MAREA TRÓPICA).</p>
+
+<p><strong>Diferencia de marea.-</strong> Diferencia en horas y alturas de una PLEAMAR o BAJAMAR entre un PUERTO SECUNDARIO y un PUERTO PATRÓN para el cual se dan las predicciones en las TABLAS DE MAREA. La diferencia aplicada, con su signo, a la predicción del PUERTO PATRÓN, da la hora o altura correspondiente al PUERTO
+SECUNDARIO.</p>
+
+<p><strong>Duración de la bajante.-</strong> Es el intervalo de tiempo desde la PLEAMAR hasta la BAJAMAR siguiente.
+
+<p><strong>Duración de la creciente.-</strong> Es el intervalo de tiempo desde la BAJAMAR hasta la PLEAMAR siguiente.</p>
+
+<p><strong>Eclíptica.-</strong> Círculo máximo determinado por la intersección del plano de la órbita de la Tierra alrededor del Sol (u órbita aparente del Sol alrededor de la Tierra) y la ESFERA CELESTE.</p>
+
+<p><strong>Ecuador celeste.-</strong> Círculo máximo de la ESFERA CELESTE cuyo plano es perpendicular al eje de rotación de la Tierra.</p>
+
+<p><strong>Efemérides.-</strong> Tabla que da la posición de un CUERPO CELESTE en diferentes épocas y para intervalos uniformes de tiempo. Conjunto de tablas de este género correspondientes a diversos cuerpos celestes.</p>
+
+<p><strong>Época de la componente.-</strong> Es el retardo expresado en unidad angular, entre los instantes donde alcanzan sus alturas máximas la COMPONENTE ARMÓNICA DE MAREA calculada utilizando OBSERVACIONES DE MAREA y la misma componente pero de la MAREA DE EQUILIBRIO. También se conoce como retardo de fase.</p>
+
+
+
+<p><strong>Equinoccios.-</strong> Los dos puntos de la ESFERA CELESTE donde el ECUADOR CELESTE intercepta a la ECLÍPTICA. También son los instantes en que el Sol ocupa estos dos puntos. El punto donde el Sol cruza el plano del ECUADOR CELESTE de Sur a Norte y ocurre alrededor del 21 de marzo se conoce con el nombre de equinoccio vernal, punto gamma o primer punto de Aries. El punto donde el Sol cruza el plano del ECUADOR CELESTE de Norte a Sur y ocurre alrededor del 23 de septiembre se conoce con el nombre de equinoccio otoñal o primer punto de Libra.</p>
+
+<p><strong>Esfera celeste.-</strong> Una esfera imaginaria, de radio infinito, concéntrica con la Tierra, donde los CUERPOS CELESTES se imaginan proyectados sobre ella.</p>
+
+<p><strong>Establecimiento de puerto medio.-</strong> Es el promedio de los intervalos transcurridos entre el paso de la Luna (superior o inferior) por el meridiano del lugar y el instante en que se produce la PLEAMAR durante un MES SINÓDICO. También se denomina establecimiento de puerto medio de las pleamares, establecimiento medio o corregido.</p>
+
+<p><strong>Estación de marea.-</strong> Lugar donde se obtienen las OBSERVACIONES DE MAREA. También se conoce como estación mareográfica (Ver ESTACIÓN PRIMARIA DE MAREA y ESTACIÓN SECUNDARIA DE MAREA).</p>
+
+<p><strong>Estación primaria de marea.-</strong> Un lugar donde se realizan OBSERVACIONES DE MAREA de manera continua durante una cantidad suficiente de años para determinar las características de ésta.</p>
+
+<p><strong>Estación secundaria de marea.-</strong> Un lugar donde se realizan OBSERVACIONES DE MAREA durante un corto período para satisfacer un determinado propósito.</p>
+
+<p><strong>Fase de la Luna.-</strong> Los diferentes aspectos que presenta la Luna para un observador terrestre durante un MES SINÓDICO. Cuando la Luna se halla en conjunción, es decir entre la Tierra y el Sol (tienen la misma longitud celeste), presenta al observador su parte oscura y se llama Luna nueva o novilunio. Al avanzar sobre su órbita muestra progresivamente su cara iluminada por el Sol, presentándose con la forma de un segmento de círculo, primero muy delgado y cóncavo-convexo, y después cada vez
+más ancho. Cuando recorre el primer cuarto de órbita (para un observador de la Tierra que está a 90˚ del Sol), se muestra en forma de semicírculo situado a la izquierda de su
+diámetro y se dice que está en cuarto creciente o primer cuarto. Cuando la Luna se halla en oposición (a 180° del Sol) aparece como un círculo completo y se llama Luna
+llena o plenilunio. Comienza a decrecer y cuando recorrió tres cuartos de su órbita (para un observador de la Tierra que está a 270° del Sol) se muestra en forma de semicírculo
+a la derecha de su diámetro y se llama cuarto menguante.</p>
+
+<p><strong>Fase de una onda componente de marea.-</strong> Ver ÉPOCA DE LA COMPONENTE.</p>
+
+<p><strong>Fondo.-</strong> Cualquier terreno (suelo) cubierto por agua.</p>
+
+
+
+<p><strong>Fuerza generadora de marea.-</strong> La Luna y el Sol ejercen fuerzas de atracción gravitatoria sobre la Tierra. Si a la primera de estas fuerzas se le suma la fuerza
+centrífuga debida al movimiento de la Luna alrededor de la Tierra, y a la segunda la fuerza centrífuga debida al movimiento de la Tierra alrededor del Sol se obtienen las
+fuerzas generadoras de marea debidas a la Luna y al Sol respectivamente. La fuerza generadora de marea debida a la Luna es aproximadamente 2,2 veces mayor que la
+debida al Sol. La magnitud de la fuerza generadora de marea (la debida a la Luna más la debida al Sol) es extremadamente pequeña en relación con la fuerza de gravedad y
+su efecto es imperceptible sobre los continentes pero muy importante sobre los océanos.</p>
+
+<p><strong>Hora de la bajamar.-</strong> Instante en el que se produce la BAJAMAR.</p>
+
+<p><strong>Hora de la pleamar.-</strong> Instante en el que se produce la PLEAMAR.</p>
+
+<p><strong>Intervalo Luna - marea.-</strong> Intervalo entre el paso de la Luna (superior o inferior) por el meridiano local o de Greenwich y el instante en que se produce la siguiente PLEAMAR o BAJAMAR. Cuando no se hace aclaración sobre el meridiano utilizado se sobrentiende que se refiere al local. El promedio de todos los intervalos de PLEAMAR para todas las FASES DE LA LUNA se conoce como intervalo medio de Luna - marea para pleamares. De manera análoga se define el intervalo medio de Luna - marea
+para bajamares. Cuando la MAREA presenta una considerable DESIGUALDAD DIURNA pueden obtenerse separadamente intervalos para las pleamares y bajamares
+más altas y más bajas. Estos intervalos se designan respectivamente intervalo pleamar superior, intervalo pleamar inferior, intervalo bajamar inferior, intervalo
+bajamar superior.</p>
+
+<p><strong>LAT.-</strong> Ver BAJAMAR ASTRONÓMICA MAS BAJA.</p>
+
+<p><strong>Máquina predictora de marea.-</strong> Instrumento mecánico que pronostica la MAREA sumando las componentes armónicas que la constituyen (Ver COMPONENTE ARMÓNICA DE MAREA).</p>
+
+<p><strong>Marea.-</strong> El fenómeno de la marea se describe como la oscilación periódica del nivel del mar (ascenso y descenso) que resulta de la atracción gravitacional de la Luna y el Sol que actúa sobre la Tierra en rotación. Este movimiento vertical es acompañado por uno horizontal, provocado por las mismas causas, que se denomina CORRIENTE DE MAREA. Existen factores que alteran a la marea haciéndola más o menos irregular y dificultando su predicción. Los principales factores son: las condiciones
+meteorológicas, topografía del FONDO, accidentes geográficos, desagüe de ríos, fusión de los hielos, precipitaciones, variaciones de la temperatura y salinidad, sismos.
+En la MAREA OBSERVADA pueden estar presentes los efectos producidos por todos los factores aquí mencionados.</p>
+
+<p><strong>Marea astronómica.-</strong> La producida exclusivamente como resultado de la acción de la atracción gravitatoria de la Luna y el Sol sobre la Tierra en rotación.</p>
+
+<p><strong>Marea bajante.-</strong> Período de la MAREA entre la PLEAMAR y la BAJAMAR que le sigue.</p>
+
+
+
+<p><strong>Marea creciente.-</strong> Período de la MAREA entre la BAJAMAR y la PLEAMAR que le sigue.</p>
+
+<p><strong>Marea de cuadratura.-</strong> MAREA que se produce durante el cuarto creciente o el menguante. La FUERZA GENERADORA DE MAREA producida por la Luna no actúa en la misma dirección que la debida al Sol por lo que la AMPLITUD DE LA MAREA disminuye en estas épocas. También se la denomina marea muerta.</p>
+
+<p><strong>Marea de equilibrio.-</strong> MAREA teórica basada en la suposición que el agua responde instantáneamente a las fuerzas generadoras de marea debidas a la Luna y el Sol, estableciéndose una superficie de equilibrio bajo la acción de estas fuerzas y la gravedad terrestre. No se tiene en cuenta a las fuerzas de fricción y de inercia y a la
+distribución irregular de los continentes. (Ver FUERZA GENERADORA DE MAREA).</p>
+
+<p><strong>Marea de perigeo.-</strong> Se produce cuando la Luna pasa por el PERIGEO. La mayor cercanía de la Luna respecto de la Tierra provoca un aumento de la AMPLITUD DE LA MAREA.</p>
+
+<p><strong>Marea de sicigia.-</strong> MAREA que se produce durante la Luna nueva y llena (Ver FASES DE LA LUNA). La AMPLITUD DE LA MAREA aumenta en esta época pues la FUERZA GENERADORA DE MAREA producida por la Luna tiene dirección y sentido similares a la debida al Sol. También se la denomina marea viva.</p>
+
+<p><strong>Marea de solsticio.-</strong> MAREA que ocurre en las épocas de los SOLSTICIOS. Es muy importante en latitudes altas.</p>
+
+<p><strong>Marea diurna.-</strong> Se produce una sola PLEAMAR y una BAJAMAR por día.</p>
+
+<p><strong>Marea equinoccial.-</strong>  Se produce cuando el Sol está en los EQUINOCCIOS.</p>
+
+<p><strong>Marea equinoccial de perigeo.-</strong> Se produce cuando el Sol está en los EQUINOCCIOS y la Luna en el PERIGEO. La AMPLITUD DE LA MAREA en esta época es mayor que el promedio especialmente si la Luna está en SICIGIA.</p>
+
+<p><strong>Marea media.-</strong> Ver PLEAMARES MEDIAS y BAJAMARES MEDIAS.</p>
+
+<p><strong>Marea meteorológica.-</strong> La que tiene origen en los efectos de las condiciones meteorológicas.</p>
+
+<p><strong>Marea mixta.-</strong> MAREA en la cual la presencia de las COMPONENTES DIURNAS se pone en evidencia por la gran desigualdad en las alturas de las pleamares y bajamares. Son mareas intermedias entre las diurnas y semidiurnas. (Ver MAREA DIURNA, MAREA SEMIDIURNA).</p>
+
+<p><strong>Marea mixta preponderantemente diurna.-</strong> Se producen tanto una pleamar (PLEAMAR) y una bajamar (BAJAMAR) por día como dos pleamares y dos
+bajamares con una importante DESIGUALDAD DIURNA.</p>
+
+
+
+<p><strong>Marea mixta preponderantemente semidiurna.-</strong> En la mayoría de los casos solamente se producen dos pleamares (PLEAMAR) y dos bajamares (BAJAMAR) por día, con una importante DESIGUALDAD DIURNA, aunque en ciertas ocasiones pueden presentarse una pleamar y una bajamar por día.</p>
+
+<p><strong>Marea observada.-</strong> Recibe esta denominación la MAREA que resulta de efectuar OBSERVACIONES DE MAREA en un lugar.</p>
+
+<p><strong>Marea predicha.-</strong> Es la que se encuentra en las TABLAS DE MAREA y se la obtiene aplicando el método de PREDICCIÓN ARMÓNICA. También se puede predecir MAREA utilizando el método de Laplace o de las CONSTANTES NO ARMÓNICAS DE MAREA, que es mucho menos preciso que el de PREDICCIÓN ARMÓNICA.</p>
+
+<p><strong>Marea semidiurna.-</strong> Se producen dos pleamares (PLEAMAR) y dos bajamares (BAJAMAR) por día, con una DESIGUALDAD DIURNA relativamente pequeña.</p>
+
+<p><strong>Marea trópica.-</strong> Tiene lugar dos veces por mes en las épocas de máxima DECLINACIÓN Norte o Sur de la Luna. El aumento de la DECLINACIÓN Norte o Sur
+provoca un incremento en la DESIGUALDAD DIURNA.</p>
+
+<p><strong>Mes sinódico.-</strong> El intervalo de tiempo transcurrido entre dos conjunciones u oposiciones sucesivas de la Luna. El mes sinódico tiene aproximadamente 29,530588 días solares medios. También se llama lunación o mes lunar (Ver FASES DE LA LUNA).</p>
+
+<p><strong>Nivel medio del mar.-</strong> Es la media aritmética de las ALTURAS DE MAREA observadas en un lugar, en forma continua, separadas por el mismo intervalo de tiempo, y durante un período adecuado. Lo aconsejable es utilizar registros continuos de 19 años de duración de ALTURAS DE MAREA horarias pues de esta manera se cubre un CICLO DE METÓN. En ocasiones se calculan niveles medios mensuales y anuales como la media aritmética de ALTURAS DE MAREA horarias obtenidas en forma continua
+durante un mes o un año de observaciones respectivamente. Generalmente los niveles medios calculados son referidos al PLANO DE REDUCCIÓN del lugar.</p>
+
+<p><strong>Observaciones de marea.-</strong> Serie de mediciones que permiten obtener datos de MAREA para efectuar diversas tareas.</p>
+
+<p><strong>Onda componente de marea.-</strong> Ver COMPONENTE ARMÓNICA DE MAREA.</p>
+
+<p><strong>Paralaje.-</strong> Un desplazamiento aparente de la posición de un cuerpo con respecto a un punto o sistema de referencia debido a un cambio en la posición del observador. En numerosos trabajos de MAREA, este término se refiere al ángulo con vértice en el centro de un CUERPO CELESTE, donde uno de sus lados pasa por el centro de la Tierra y el otro es tangente a la misma (ángulo paraláctico).</p>
+
+<p><strong>Parámetros estadísticos de la marea.-</strong> Son aquellos valores que se deducen de OBSERVACIONES DE MAREA utilizando métodos estadísticos, por ejemplo, niveles medios, pleamares, bajamares y amplitudes, máximas, medias y mínimas, etc. (Ver NIVEL MEDIO, PLEAMAR, BAJAMAR, AMPLITUD DE LA MAREA).</p>
+
+
+
+<p><strong>Perigeo.-</strong> El punto más cercano a la Tierra, de una órbita descripta alrededor de ésta, cuando la Tierra es el centro de atracción. En la terminología mareológica se suele utilizar esta expresión para señalar al punto de la órbita de la Luna más cercano a la Tierra. Su opuesto es el APOGEO.</p>
+
+<p><strong>Perihelio.-</strong> El punto más cercano al Sol de una órbita descripta alrededor de éste, cuando el Sol es el centro de atracción. En la terminología mareológica se suele utilizar esta expresión para señalar al punto de la órbita de la Tierra más cercano al Sol. Su opuesto es el AFELIO.</p>
+
+<p><strong>Pilote mareográfico.-</strong> Estructura generalmente metálica o de hormigón, hincada en el lecho, para obtener OBSERVACIONES DE MAREA, ubicada fuera del margen de COSTA.</p>
+
+<p><strong>Plano de reducción.-</strong> Nivel de referencia de las profundidades indicadas sobre las cartas náuticas (generalmente, nivel de bajamares) que representa de igual manera el nivel de referencia de las ALTURAS DE LA MAREA establecidas en las TABLAS DE MAREA. También se denomina referencia batimétrica o plano de referencia.</p>
+
+<p><strong>Pleamar.-</strong> Nivel máximo alcanzado por una MAREA CRECIENTE.</p>
+
+<p><strong>Pleamares de perigeo.-</strong> Ver MAREA DE PERIGEO.</p>
+
+<p><strong>Pleamares equinocciales de perigeo.-</strong> Ver MAREA EQUINOCCIAL DE PERIGEO.</p>
+
+<p><strong>Pleamares medias.-</strong> La ALTURA DE LA PLEAMAR media es la media aritmética de todas las pleamares durante un CICLO DE METÓN.</p>
+
+<p><strong>Pleamares trópicas.-</strong> Ver MAREA TRÓPICA.</p>
+
+<p><strong>Polos celestes.-</strong> Los dos puntos de intersección de la ESFERA CELESTE con la prolongación del eje de rotación de la Tierra. Se denominan polo Norte celeste y polo Sur celeste.</p>
+
+<p><strong>Predicción armónica.-</strong> Método de predicción de MAREA y CORRIENTE DE MAREA mediante la combinación de las componentes armónicas sobre una sola curva. Anteriormente el cálculo se hacía, por lo general, mecánicamente por medio de máquinas ideadas con este propósito. Actualmente se lo realiza utilizando
+computadoras. (Ver COMPONENTE ARMÓNICA DE MAREA).</p>
+
+<p><strong>Profundidad.-</strong> Distancia vertical desde un determinado nivel de agua hasta el FONDO.</p>
+
+
+
+<p><strong>Profundidad indicada en la carta.-</strong> Distancia vertical desde el PLANO DE REDUCCIÓN (cero de la CARTA) hasta el FONDO. Esta distancia es positiva
+cuando el FONDO está ubicado por debajo del PLANO DE REDUCCIÓN y negativa cuando está por encima de este último.</p>
+
+
+
+<p><strong>Puerto patrón.-</strong> Un lugar para el cual las CONSTANTES DE MAREA que han sido previamente determinadas utilizando observaciones allí realizadas, se usan como valores "tipo" (patrón) para comparar las observaciones simultáneas de un PUERTO SECUNDARIO. También son lugares para los cuales se dan predicciones diarias
+independientes en las TABLAS DE MAREA y de las cuales se obtienen las predicciones para otras estaciones mediante la aplicación de factores o diferencias.</p>
+
+
+
+<p><strong>Puerto secundario.-</strong> Estación secundaria de marea en la cual se obtienen series cortas de OBSERVACIONES DE MAREA o de CORRIENTE DE MAREA las cuales son reducidas por comparación con observaciones simultáneas de otra estación para obtener una mejor determinación de las CONSTANTES DE MAREA. También son las
+estaciones para las cuales las predicciones que figuran en las TABLAS DE MAREA se obtienen por aplicación de diferencias o factores a las predicciones publicadas para el
+correspondiente PUERTO PATRÓN.</p>
+
+<p><strong>Reducción de marea.-</strong> Proceso para obtener, de una serie de OBSERVACIONES DE MAREA, los valores medios de las CONSTANTES NO ARMÓNICAS DE MAREA.</p>
+
+<p><strong>Régimen de marea.-</strong> Las características más notables de la MAREA determinadas por la combinación de las COMPONENTES DIURNAS y COMPONENTES
+SEMIDIURNAS. Se observan mareas semidiurnas, mixtas y diurnas, no existiendo límites bien definidos que permitan separar los grupos. También se denomina tipo de
+marea (Ver MAREA DIURNA, MAREA SEMIDIURNA, MAREA MIXTA). En esta publicación se adoptó la siguiente clasificación de la marea:
+</p>
+
+<ul>
+<li><p>Semidiurna (Ver MAREA SEMIDIURNA).</p></li>
+<li><p>Mixta preponderantemente semidiurna (Ver MAREA MIXTA PREPONDERANTEMENTE SEMIDIURNA).</p></li>
+<li><p>Mixta preponderantemente diurna (Ver MAREA MIXTA PREPONDERANTEMENTE DIURNA).</p></li>
+<li><p>Diurna (Ver MAREA DIURNA).</p></li>
+</ul>
+
+
+<p><strong>Sicigia.-</strong> Posición de la Luna cuando es nueva o llena (Ver FASES DE LA LUNA).</p>
+
+<p><strong>Solsticios.-</strong> Los dos puntos de la ECLÍPTICA en los que el Sol alcanza su DECLINACIÓN máxima Norte y Sur. El Sol alcanza la máxima DECLINACIÓN Norte el 21 de junio aproximadamente, y señala el comienzo del verano en el hemisferio Norte y del invierno en el Sur. La máxima DECLINACIÓN Sur se produce aproximadamente el 22 de diciembre y señala el comienzo del invierno en el hemisferio Norte y el verano en el Sur.</p>
+
+<p><strong>Sondaje.-</strong> Distancia vertical entre la superficie del agua y el fondo para el instante de medición o registro de la PROFUNDIDAD del agua, o la medición de dicha profundidad. También se utilizan los términos sondeo o sonda.</p>
+
+<p><strong>Tablas de marea.-</strong> Publicación que brinda las alturas y horas de pleamares, bajamares y alturas horarias previstas para los PUERTOS PATRONES. Esta información se complementa con diferencias de mareas para obtener la altura y hora de la PLEAMAR y BAJAMAR de los PUERTOS SECUNDARIOS. También se indican métodos para calcular la ALTURA DE LA MAREA en un instante cualquiera. Contiene además EFEMÉRIDES del Sol y de la Luna y otras informaciones pertinentes. (Ver ALTURA DE LA PLEAMAR, ALTURA DE LA BAJAMAR, HORA DE LA PLEAMAR, HORA DE LA BAJAMAR, PUERTO PATRÓN, PUERTO SECUNDARIO).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </article>
+
+      <aside class="col-md-4 col-md-pull-8">
+        <nav class="page-sidebar">
+
+          <ul class="nav nav-pills nav-stacked">
+            <li class="btn-title hidden">Navegación</li>
+
+           <li class="btn-title nopointer">Tablas de Marea</li>
+  
+            <li class="xactive1"><a href="Form_TMareas.asp?op=1">Puertos del Río de la Plata y Litoral Marítmo Argentino Sudamericano</a></li>
+            <li class="xactive2"><a href="Form_TMareas.asp?op=2">Suplemento Litoral Marítimo Argentino Antártico y Subantártico</a></li>
+            <li class="xactive3"><a href="Form_TMareas.asp?op=3">Puertos secundarios</a></li>
+
+           <li class="btn-title nopointer">Tablas de Conversión</li>
+
+
+           <ul>
+           <li class="xactive4"><a href="Form_TMareas.asp?op=4">Tabla I </a></li>
+           <li class="xactive5"><a href="Form_TMareas.asp?op=5">Tabla II</a></li>
+           <li class="xactive6"><a href="Form_TMareas.asp?op=6">Tabla III</a></li>
+           <li class="xactive7"><a href="Form_TMareas.asp?op=7">Tabla IV</a></li>
+           <li class="xactive8"><a href="Form_TMareas.asp?op=8">Tabla V</a></li>
+           <li class="xactive9"><a href="Form_TMareas.asp?op=9">Tabla VI</a></li>
+          </ul>
+
+
+            <li class="btn-title xactive10"><a href="Form_TMareas.asp?op=10">Tabla de Interpolación</a></li>
+
+
+
+           <li class="btn-title active"><a href="Form_TMareas.asp?op=11">Glosario de términos usados</a></li>
+
+
+           <li class="btn-title xactive12"><a href="Form_TMareas.asp?op=12">Generalidades</a></li>
+
+    </ul>
+
+        </nav>
+      </aside>
+
+
+    </div>
+  </section>
+</div>
+
+
+	
+
+
+
+<section class="modulo-contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+          <h2 class="section-title">Contacto</h2>
+          <div>
+            <h3 class="h5">Servicio de Hidrografía Naval</h3>
+
+<ul class="menu nav">
+    <li class="first leaf"> <strong>Dirección:</strong> Av. Montes de Oca 2124</li>
+    <li class="first leaf"> <strong>Código Postal:</strong> C1270ABV</li>
+    <li class="first leaf"> <strong>Teléfono:</strong> (+54 11) 4301-0062 / 4301-0064 / 4301-0066 / 4301-0067</li>
+    <li class="last leaf"> <strong>Correo electrónico: </strong>shn@hidro.gov.ar</li>
+</ul>
+<br>
+            <h3 class="h5">Redes sociales del área</h3>
+ <div class="social-btn">
+	<ul>
+
+
+
+
+	<li>
+		<a href="https://twitter.com/SHN_Argentina" target="blank" title="Seguinos en Twitter"><span class="maschico icono-arg-twitter-pajaro" aria-hidden="true"></span></a>
+			
+	</li>
+												
+
+	<li>
+		<a href="/rss/rss.asp" target="blank" title="Seguinos en RSS">	<span class="fa fa-rss" aria-hidden="true"></span></a>
+
+	</li>
+
+
+	<li>
+		<a href="https://instagram.com/shn_argentina?utm_medium=copy_link" target="blank" title="Seguinos en Instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+		</li>
+
+
+
+
+	<li>
+
+		<a href="https://www.youtube.com/channel/UCTWs-jNTBiGlqgfsAOGl8jQ" target="blank" title="Seguinos en YouTube"><span class="fa fa-youtube-square" aria-hidden="true"></span></a>
+
+	</li>
+
+
+															
+												
+	</ul>
+		</div>
+
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div>
+ 
+
+
+<iframe class="ccsiframe" title="Mapa con la ubicación del Servicio de Hidrografía Naval" src="/nautica/mapashn_ArgenMap.asp"></iframe>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+ 
+
+
+    </main>
+		 <footer class="main-footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <span class="text-muted small">© Copyright - Todos los Derechos Reservados - Servicio de Hidrografía Naval</span>&nbsp;|&nbsp;
+
+
+<span class="text-muted small"><a href="/sitio/sitio.asp" accesskey="0">Mapa del Sitio</a></span>&nbsp;|&nbsp;<span class="text-muted small"><a href="/accesibilidad/accesibilidad.asp">Accesibilidad Web</a></span>
+
+
+      </div>
+    </div>
+
+  </div>
+</footer>
+			
+
+
+
+  </body>
+</html>

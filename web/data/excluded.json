@@ -1,0 +1,569 @@
+{
+ "verified": "2026-10-16",
+ "items": [
+  {
+   "category": "Especies",
+   "item": "Escalandrún (Carcharias taurus)",
+   "reason": "Su límite sur es el Golfo San Matías (41,5°S): no llega a Chubut.",
+   "consulted": [
+    "it2016",
+    "fb-carcharias"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Chernia (Polyprion americanus)",
+   "reason": "Adultos en arrecifes de 100–600 m; sin evidencia de pesca recreativa en Chubut.",
+   "consulted": []
+  },
+  {
+   "category": "Especies",
+   "item": "Abadejo (Genypterus blacodes)",
+   "reason": "Especie de profundidad (300–550 m); solo citado como pesca industrial.",
+   "consulted": []
+  },
+  {
+   "category": "Especies",
+   "item": "Merluza (Merluccius hubbsi)",
+   "reason": "Adultos a 100–200 m; sin fuente de captura recreativa en Chubut.",
+   "consulted": []
+  },
+  {
+   "category": "Especies",
+   "item": "Lenguados (Paralichthys spp. y otros)",
+   "reason": "Presentes en la costa, pero sin documentación de captura recreativa en Chubut.",
+   "consulted": [
+    "galvan2009"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Sargo, castañeta, pescadilla",
+   "reason": "Presentes, pero sin documentación de captura recreativa en Chubut.",
+   "consulted": []
+  },
+  {
+   "category": "Especies",
+   "item": "Salmón de mar (Pseudopercis semifasciata)",
+   "reason": "Solo documentada pesca embarcada en Chubut.",
+   "consulted": [
+    "ven-tesis",
+    "pa-salmon"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Mero (Acanthistius patachonicus)",
+   "reason": "Solo documentada pesca embarcada en Chubut.",
+   "consulted": [
+    "pa-mero",
+    "ven-tesis"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Turco (Pinguipes brasilianus)",
+   "reason": "Solo documentada pesca embarcada en Chubut.",
+   "consulted": [
+    "ven-tesis"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Escrófalo (Sebastes oculatus)",
+   "reason": "Solo documentada pesca embarcada en Chubut.",
+   "consulted": [
+    "pa-escrofalo",
+    "ven-tesis"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Besugo (Pagrus pagrus)",
+   "reason": "Solo documentada pesca embarcada en Chubut.",
+   "consulted": [
+    "pa-besugo",
+    "argentinaxplora"
+   ]
+  },
+  {
+   "category": "Especies",
+   "item": "Caballa / magrú (Scomber colias)",
+   "reason": "Solo documentada pesca embarcada en Chubut.",
+   "consulted": [
+    "ven-tesis",
+    "pa-caballa"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta Pardelas",
+   "reason": "El Plan de Manejo de Península Valdés no habilita la pesca de costa en ese sector.",
+   "consulted": [
+    "pv-plan"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Caleta Valdés",
+   "reason": "Zona intangible de Península Valdés; además, solo había una fuente de pesca.",
+   "consulted": [
+    "pv-plan"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta Delgada, Punta Norte",
+   "reason": "Apostaderos intangibles de Península Valdés.",
+   "consulted": [
+    "pv-plan"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta Cormoranes, Bahía Cracker",
+   "reason": "Una sola fuente (texto copiado en varios sitios).",
+   "consulted": [
+    "argentinaxplora"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Cerro Avanzado, Punta Cuevas",
+   "reason": "Una sola fuente de pesca.",
+   "consulted": []
+  },
+  {
+   "category": "Spots",
+   "item": "Barrancas Blancas",
+   "reason": "Una sola fuente (guía de ADNSUR). Su advertencia de marea figura en Seguridad como reporte de una sola fuente.",
+   "consulted": [
+    "adnsur-barrancas-2025"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Restinga Alí",
+   "reason": "Agua contaminada y una sola fuente sobre el incidente con la marea.",
+   "consulted": [
+    "adnsur-playas-2019",
+    "infocampo-restinga-2020"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Ancina, Los Límites / Playa Bonita, Ramón Santos",
+   "reason": "Sin dos fuentes independientes como lugar de pesca.",
+   "consulted": []
+  },
+  {
+   "category": "Spots",
+   "item": "Riacho San José, Playa Larralde (como marisqueo)",
+   "reason": "Solo marisqueo artesanal documentado en la investigación inicial.",
+   "consulted": []
+  },
+  {
+   "category": "Spots",
+   "item": "Muelle Almirante Storni",
+   "reason": "Uso portuario comercial; ninguna fuente documenta pesca deportiva.",
+   "consulted": [
+    "appm-piedrabuena"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Puerto Pirámides (como spot)",
+   "reason": "Pesca de costa no habilitada por el Plan de Manejo; solo había pesca embarcada.",
+   "consulted": [
+    "pv-plan"
+   ]
+  },
+  {
+   "category": "Normativa",
+   "item": "Disposición 214/1994 (Península Valdés): sus supuestos cupos y temporadas circulan en resúmenes de terceros, pero no pudimos abrir el texto original.",
+   "reason": "No verificado contra el texto oficial.",
+   "consulted": []
+  },
+  {
+   "category": "Normativa",
+   "item": "Vigencia y exenciones de la licencia marítima (salvo menores de 14 años).",
+   "reason": "No verificado contra el texto oficial.",
+   "consulted": []
+  },
+  {
+   "category": "Otros datos",
+   "item": "Tallas mínimas, cupos y vedas por especie",
+   "reason": "No existe norma publicada para la pesca marítima recreativa en Chubut.",
+   "consulted": [
+    "sp-chubut",
+    "ley-xvii-8"
+   ]
+  },
+  {
+   "category": "Otros datos",
+   "item": "Predicciones de marea 2027",
+   "reason": "El SHN todavía no las publica.",
+   "consulted": [
+    "shn-tablas"
+   ]
+  },
+  {
+   "category": "Otros datos",
+   "item": "Correcciones de marea para Playa Unión, Bajo Los Huesos, Rada Tilly, Caleta Córdova y Puerto Lobos",
+   "reason": "El SHN no publica puertos secundarios para esos puntos.",
+   "consulted": [
+    "shn-tablas"
+   ]
+  },
+  {
+   "category": "Otros datos",
+   "item": "Coeficiente de marea",
+   "reason": "No existe un coeficiente oficial en Argentina.",
+   "consulted": [
+    "shn-generalidades"
+   ]
+  },
+  {
+   "category": "Otros datos",
+   "item": "Distancia oficial a colonias de pingüinos",
+   "reason": "No encontrada.",
+   "consulted": []
+  },
+  {
+   "category": "Otros datos",
+   "item": "Funcionamiento actual del 911 en Chubut",
+   "reason": "Solo figura en la Ley XIX Nº 77.",
+   "consulted": [
+    "ley-xix-77"
+   ]
+  },
+  {
+   "category": "Otros datos",
+   "item": "Datos de pesca embarcada",
+   "reason": "Fuera del alcance: la app es solo de pesca de costa.",
+   "consulted": []
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Rada Tilly (playa, bajadas 2 a 28): Hay restingas y un sector intermareal rocoso ('Los Pozones', cerca de la Falsa Punta Marqués, extremo sur) que queda totalmente cubierto cua",
+   "reason": "Advertencia de seguridad con una sola fuente: no cumple la regla estricta.",
+   "consulted": [
+    "c-adnsur-pozones",
+    "c-cronica-gv-rt"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Comodoro Rivadavia: playas Km 3, Km 4 y Km 5: El agua de Km 3, 4 y 5 resultó no apta para baño en los muestreos de 2019: no te metas al agua.",
+   "reason": "Advertencia de seguridad con una sola fuente: no cumple la regla estricta.",
+   "consulted": [
+    "adnsur-playas-2019"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Playa Barrancas Blancas: ADVERTENCIA DE FUENTE ÚNICA (no cumple el criterio estricto, se deja por seguridad): en el sector de barrancas de arcilla, cuando sube la ma",
+   "reason": "Advertencia de seguridad con una sola fuente: no cumple la regla estricta.",
+   "consulted": [
+    "adnsur-barrancas-2025"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Cabo Raso: Playas de gran oleaje (buscadas por surfistas).",
+   "reason": "Advertencia de seguridad con una sola fuente: no cumple la regla estricta.",
+   "consulted": [
+    "c-rionegro-raso",
+    "rionegro-camarones-2024"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Bahía Janssen / Bahía Cruz / Punta Clara (tramo Punta Tombo – Cabo Raso)",
+   "reason": "No se encontró ninguna fuente que las documente como lugar de pesca de costa (solo existen como estaciones de marea del SHN). OSM no tiene playas ni accesos mapeados en ese tramo (solo cabos). Sin existencia ni acceso verificados.",
+   "consulted": [
+    "búsquedas web 2026-10-16",
+    "https://overpass-api.de/api/interpreter (bbox -44.45,-65.40,-44.05,-65.15)"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Thompson (coordenadas)",
+   "reason": "Existe como sede del concurso de costa (ver spot camarones), pero no hay ningún elemento OSM ni coordenada oficial: queda sin coordenadas.",
+   "consulted": [
+    "https://diariojornada.com.ar/344590/magazine/se_viene_la_fiesta_nacional_del_salmon_",
+    "https://overpass-api.de/api/interpreter"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Caleta Carolina (Camarones)",
+   "reason": "La pesca solo la documenta Weekend 2022 (fuente única). OSM la ubica en -44.9054, -65.6066 (place=locality), al sur del paralelo 44°54' S: probablemente dentro del PIMCPA y del Parque Provincial Patagonia Azul (legalidad sin confirmar).",
+   "consulted": [
+    "https://weekend.perfil.com/noticias/el-pique/donde-esta-el-pique-en-vacaciones.phtml",
+    "https://www.c5n.com/lifestyle/turismo-argentina-esta-el-sur-y-es-ideal-los-amantes-del-mar-y-la-naturaleza-n217764",
+    "https://www.openstreetmap.org/node/5982236805"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Elola, El Pescadero, Caleta Sara, El Chuequito Grande (Camarones)",
+   "reason": "Solo aparecen en listados turísticos (C5N) sin mención de pesca. Playa Elola tiene camping en OSM (node 629045807).",
+   "consulted": [
+    "https://www.c5n.com/lifestyle/turismo-argentina-esta-el-sur-y-es-ideal-los-amantes-del-mar-y-la-naturaleza-n217764"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Elena / Punta Tafor (Camarones)",
+   "reason": "Sin resultados en web ni en OSM.",
+   "consulted": [
+    "búsquedas web 2026-10-16",
+    "https://overpass-api.de/api/interpreter"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Bahía Bustamante / camping Arroyo Marea",
+   "reason": "La pesca la documenta una sola fuente (Canal26). Dentro de Patagonia Azul (legalidad sin confirmar): ONG y prensa dicen que sus aguas son no-take, y GreenMe incluye la pesca recreativa.",
+   "consulted": [
+    "https://www.canal26.com/turismo/escapadas-en-la-naturaleza-tres-campings-gratuitos-para-disfrutar-la-costa-de-chubut-en-semana-santa--419929",
+    "https://rewilding.org/argentinas-new-patagonia-azul-provincial-park-secures-a-vital-hotspot-of-marine-biodiversity/",
+    "https://www.greenme.it/ambiente/creata-area-naturale-protetta-argentina/"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Puerto Visser",
+   "reason": "Una sola fuente (ADNSUR 2023: pesca de tiburón y cartilaginosos, acceso 4x4, a 58 km de Comodoro). Está en el límite del ANP Rocas Coloradas y dentro de la reserva de biosfera Patagonia Azul.",
+   "consulted": [
+    "https://www.adnsur.com.ar/comodoro/puerto-visser--un-antiguo-paraje-costero-muy-elegido-por-pescadores-y-amantes-de-la-naturaleza_a63c2a09d9d65f2964339d106"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Costanera de Comodoro",
+   "reason": "Solo Weekend 2020 (habilitación durante la pandemia) la nombra como lugar de pesca; ADNSUR 2019 no menciona pesca. Fuente única.",
+   "consulted": [
+    "https://weekend.perfil.com/noticias/pesca/playas-y-muelles-de-la-costa-cuales-estan-abiertos-y-que-se-pesca.phtml",
+    "https://www.adnsur.com.ar/sociedad/que-playas-se-pueden-conocer-en-comodoro-rivadavia_a5c93c99ca6177961e2d01efa"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Km 8 (Comodoro)",
+   "reason": "Solo aparece con datos de calidad de agua (no apta); sin documentación de pesca.",
+   "consulted": [
+    "https://www.adnsur.com.ar/sociedad/que-playas-se-pueden-conocer-en-comodoro-rivadavia_a5c93c99ca6177961e2d01efa"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta Borja",
+   "reason": "Es un punto histórico (primer muelle de 1901, zona del Cerro Chenque); sin documentación como pesquero.",
+   "consulted": [
+    "búsqueda en ADNSUR y Crónica 2026-10-16"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Belvedere / Bajada de los Palitos",
+   "reason": "La pesca la menciona una sola fuente (ADNSUR 2021). Linda con el ANP Punta Marqués, ampliada en 2025 a 3.727 ha (límites nuevos no verificados). Incluida en la veda de bivalvos del 16/10/2026.",
+   "consulted": [
+    "https://www.adnsur.com.ar/especiales/comodoro-desde-arriba/comodoro--desde-arriba---sobrevolando-la-playa-de-la-bajada-de-los-palitos_a617c16b775a6f613cb890178",
+    "https://elcomodorense.net/preocupa-el-futuro-de-la-playa-de-la-bajada-de-los-palitos/",
+    "https://www.openstreetmap.org/relation/6855368"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta del Marqués",
+   "reason": "Área Natural Protegida (lobería); excluida como spot por instrucción. No se encontró reglamento de pesca.",
+   "consulted": [
+    "https://www.openstreetmap.org/relation/4510022"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "La Herradura",
+   "reason": "Barrio cerrado (country) con ingreso no público. Sin documentación de pesca.",
+   "consulted": [
+    "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Bonita / Los Límites",
+   "reason": "Existe (ficha oficial de Comodoro Turismo con coordenada -46.000095, -67.591525, 'en el límite entre Chubut y Santa Cruz'; recomienda verificar mareas antes de ir). La coordenada oficial cae unos 10 m al sur del paralelo 46° S (lado Santa Cruz), y OSM tiene dos nodos 'Bonita', uno a cada lado (-45.988 en Chubut, -46.008 en Santa Cruz). La pesca solo la menciona Weekend 2019 (róbalo y pez gallo): fuente única.",
+   "consulted": [
+    "https://comodoroturismo.gob.ar/lista/playa-bonita/",
+    "https://weekend.perfil.com/noticias/pesca/12-especies-a-tiro-de-cana.phtml",
+    "https://www.openstreetmap.org/node/12580308226",
+    "https://www.openstreetmap.org/node/12580308225"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Ramón Santos",
+   "reason": "Es un puesto policial interprovincial sobre la RN3 (lado Chubut), frente a una playa muy visitada; sin documentación de pesca.",
+   "consulted": [
+    "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Ancina / Acina (km 1866 RN3)",
+   "reason": "Queda del lado de Santa Cruz (pasando Punta Maqueda; el nodo OSM 'Alsina' está en -46.053, al sur del paralelo 46° S). Fuera de Chubut.",
+   "consulted": [
+    "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09",
+    "https://www.openstreetmap.org/node/12580308229"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Playa Canto: Padre e hijo quedaron aislados por la subida de la marea, que les impidió volver por la playa; el jefe de Bomberos dijo que estos rescates s",
+   "reason": "Advertencia de seguridad con una sola fuente: no cumple la regla estricta.",
+   "consulted": [
+    "radiochubut-canto-2025"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Escollera sur de Puerto Rawson: 16/03/2018: tres personas (dos menores) quedaron aisladas por la pleamar en la escollera sur mientras pescaban; rescate de Prefectura (106).",
+   "reason": "Advertencia de seguridad con una sola fuente: no cumple la regla estricta.",
+   "consulted": [
+    "dj-2018-escollera"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Villarino (Golfo San José)",
+   "reason": "El Plan de Manejo de PV, en la 'zona costera comprendida entre Villarino y Bengoa', permite SOLAMENTE la pesca artesanal con cerco de costa; la pesca deportiva de costa queda restringida a la cercanía de El Riacho y Larralde. OSM: way 496390441 natural=beach/camp_site.",
+   "consulted": [
+    "https://peninsulavaldes.org.ar/wp-content/uploads/2023/09/Plan-de-Manejo-Peninsula-Valdes-optimizado.pdf",
+    "https://www.openstreetmap.org/way/496390441"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Bengoa (Golfo San José)",
+   "reason": "Mismo tramo Villarino–Bengoa: solo pesca artesanal con cerco de costa (Plan de Manejo PV). Asentamiento temporario de pescadores artesanales; sin fuente de pesca deportiva.",
+   "consulted": [
+    "https://peninsulavaldes.org.ar/wp-content/uploads/2023/09/Plan-de-Manejo-Peninsula-Valdes-optimizado.pdf",
+    "https://ojs.rosario-conicet.gov.ar/index.php/prohistoria/article/view/2080"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta Gales (Golfo San José)",
+   "reason": "El plan la lista como asentamiento temporario de pesca artesanal; no está nombrada para pesca deportiva de costa (solo 'cercanía de El Riacho y Larralde'). Sin fuentes de pesca deportiva. OSM node 3257578292 place=locality.",
+   "consulted": [
+    "https://peninsulavaldes.org.ar/wp-content/uploads/2023/09/Plan-de-Manejo-Peninsula-Valdes-optimizado.pdf"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playas de El Doradillo entre Punta Ameghino y Punta Arco (Las Canteras, Punta Flecha, Punta Dorado, Bañuls, Manara)",
+   "reason": "No es un área nueva: es el tramo del ANP El Doradillo (costa norte del Golfo Nuevo, no 'sur'). La pesca de costa está permitida todo el año (municipio + Plan PV), pero ninguna fuente documenta pesca en una playa puntual de ese tramo; se cubre con el spot 'el-doradillo' (Las Canteras).",
+   "consulted": [
+    "https://turismo.madryn.gob.ar/anp-el-doradillo/",
+    "https://peninsulavaldes.org.ar/wp-content/uploads/2023/09/Plan-de-Manejo-Peninsula-Valdes-optimizado.pdf"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Cerro Avanzado (Puerto Madryn)",
+   "reason": "Sigue con una sola fuente de pesca (Ohlalá 2017). Búsquedas en prensa local, Interpatagonia y Welcome Argentina sin mención de pesca. OSM node 5861519586 tourism=viewpoint (-42.826437,-64.884715).",
+   "consulted": [
+    "https://www.somosohlala.com/revista/historico/chubut-tres-excursiones-para-explorar-el-golfo-nuevo-nid05032017",
+    "https://www.interpatagonia.com/puertomadryn/pesca-puerto-madryn.html",
+    "https://www.rionegro.com.ar/?p=3292499"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Punta Cuevas (Puerto Madryn)",
+   "reason": "Ninguna fuente de pesca encontrada (solo buceo e historia galesa). OSM node 11653048206 tourism=viewpoint.",
+   "consulted": [
+    "https://www.interpatagonia.com/puertomadryn/pesca-puerto-madryn.html",
+    "https://www.welcomeargentina.com/puertomadryn/pesca-madryn.html",
+    "https://diveplannerpro.com/es/spots/ar/argentina/argentina-punta-cuevas"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Kaiser / Punta Arco",
+   "reason": "Solo existen como objetos OSM (relation 12309484 natural=beach; relation 11358551 natural=cape); sin fuente de pesca.",
+   "consulted": [
+    "https://www.openstreetmap.org/relation/12309484",
+    "https://www.openstreetmap.org/relation/11358551"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Costa chubutense del Golfo San Matías (salvo Puerto Lobos)",
+   "reason": "Ninguna fuente de pesca deportiva de costa; Puerto Lobos figura además como zona de producción de moluscos AR-CH-001 (sanitaria, no recreativa).",
+   "consulted": [
+    "https://faolex.fao.org/docs/pdf/arg120593.pdf",
+    "https://www.patagonia-argentina.com/en/discovering-puerto-lobos/"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Las Canteras (Rawson)",
+   "reason": "Nombrada en la lista municipal de playas de pesca, pero sin ficha, coordenadas ni segunda fuente. OSM tiene un barrio 'La Cantera' (node 7078330800 place=neighbourhood) junto a Los Palos, sin confirmación de que sea el mismo lugar.",
+   "consulted": [
+    "https://rawson-chubut.com.ar/turismo/lugar/659c014efa42a90198b59986",
+    "https://www.openstreetmap.org/node/7078330800"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Playa Elola",
+   "reason": "Fuera de esta zona: está a ~6 km de Camarones (costa sur), no en Rawson norte.",
+   "consulted": [
+    "https://www.baenegocios.com/amp/Escapada-hacia-la-Patagonia-Argentina-las-playas-ocultas-con-paz-total-20250724-0067/"
+   ]
+  },
+  {
+   "category": "Spots",
+   "item": "Muelle Almirante Storni (Madryn)",
+   "reason": "Muelle de uso comercial con control de acceso; pesca deportiva no documentada.",
+   "consulted": [
+    "https://appm.com.ar/muelle-piedra-buena"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Playa Canto: En abril de 2025 dos pescadores quedaron aislados porque la creciente les cortó el regreso por la playa; hubo que esperar la bajante para rescatarlos.",
+   "reason": "Advertencia con una sola fuente (prensa que cita a Prefectura o Bomberos). Falta un registro oficial o una segunda fuente independiente.",
+   "consulted": [
+    "radiochubut-canto-2025"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Playa Canto: corte por marea",
+   "reason": "Condición de corte con una sola fuente (prensa). Falta un registro oficial o una segunda fuente independiente.",
+   "consulted": [
+    "radiochubut-canto-2025"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Escollera sur, Puerto Rawson: En marzo de 2018 tres personas, dos de ellas menores, quedaron aisladas por la pleamar en la escollera sur mientras pescaban; las rescató Prefectura (",
+   "reason": "Advertencia con una sola fuente (prensa que cita a Prefectura o Bomberos). Falta un registro oficial o una segunda fuente independiente.",
+   "consulted": [
+    "dj-2018-escollera"
+   ]
+  },
+  {
+   "category": "Seguridad (fuente única)",
+   "item": "Escollera sur, Puerto Rawson: corte por marea",
+   "reason": "Condición de corte con una sola fuente (prensa). Falta un registro oficial o una segunda fuente independiente.",
+   "consulted": [
+    "dj-2018-escollera"
+   ]
+  }
+ ]
+}

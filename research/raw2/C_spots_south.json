@@ -1,0 +1,1501 @@
+{
+ "sources": [
+  {
+   "id": "c-rt-zonif",
+   "type": "oficial",
+   "title": "Rada Tilly: se aprobó Ordenanza para zonificación de la playa (11/04/2021)",
+   "publisher": "Municipalidad de Rada Tilly",
+   "url": "https://radatilly.gob.ar/rada-tilly-se-aprobo-ordenanza-para-zonificacion-de-la-playa/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-rt-recom",
+   "type": "oficial",
+   "title": "Recomendaciones para disfrutar la playa de manera segura (05/01/2023)",
+   "publisher": "Municipalidad de Rada Tilly",
+   "url": "https://radatilly.gob.ar/recomendaciones-para-disfrutar-de-la-playa-de-manera-segura/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-ct-bb",
+   "type": "oficial",
+   "title": "Playa de Barrancas Blancas (ficha turística, con coordenadas)",
+   "publisher": "Comodoro Turismo (Municipalidad de Comodoro Rivadavia)",
+   "url": "https://comodoroturismo.gob.ar/lista/playa-barrancas-blancas/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-ct-cc",
+   "type": "oficial",
+   "title": "Playa Caleta Córdova (ficha turística, con coordenadas)",
+   "publisher": "Comodoro Turismo (Municipalidad de Comodoro Rivadavia)",
+   "url": "https://comodoroturismo.gob.ar/lista/playa-caleta-cordova/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-ct-bonita",
+   "type": "oficial",
+   "title": "Playa Bonita (ficha turística, con coordenadas)",
+   "publisher": "Comodoro Turismo (Municipalidad de Comodoro Rivadavia)",
+   "url": "https://comodoroturismo.gob.ar/lista/playa-bonita/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-ct-restinga",
+   "type": "oficial",
+   "title": "Playa Restinga Alí (ficha turística)",
+   "publisher": "Comodoro Turismo (Municipalidad de Comodoro Rivadavia)",
+   "url": "https://comodoroturismo.gob.ar/lista/playa-restinga-ali/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-mcr-muelle",
+   "type": "oficial",
+   "title": "Adolescentes de la esquina vivieron una jornada de pesca en Caleta Córdova (04/05/2025)",
+   "publisher": "Municipalidad de Comodoro Rivadavia",
+   "url": "https://www.comodoro.gov.ar/2025/05/04/adolescentes-de-la-esquina-vivieron-una-jornada-de-pesca-en-caleta-cordova/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-mcr-bb-fiesta",
+   "type": "oficial",
+   "title": "El Municipio invita a disfrutar de Barrancas Blancas ... Fiesta del Pescador (20/02/2020)",
+   "publisher": "Municipalidad de Comodoro Rivadavia",
+   "url": "https://www.comodoro.gov.ar/2020/02/20/el-municipio-invita-a-disfrutar-de-barrancas-blancas-con-actividades-para-toda-la-familia-en-la-tradicional-fiesta-del-pescador/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-mcr-bb-caminos",
+   "type": "oficial",
+   "title": "El Municipio avanza en el mantenimiento de caminos hacia la zona de Barrancas Blancas (06/02/2020)",
+   "publisher": "Municipalidad de Comodoro Rivadavia",
+   "url": "https://www.comodoro.gov.ar/2020/02/06/el-municipio-avanza-en-el-mantenimiento-de-caminos-hacia-la-zona-de-barrancas-blancas-para-la-fiesta-del-pescador/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-pna-cc-2021",
+   "type": "oficial",
+   "title": "Prefectura rescató a seis menores y tres mujeres en Comodoro Rivadavia (25/02/2021)",
+   "publisher": "Prefectura Naval Argentina (argentina.gob.ar)",
+   "url": "https://www.argentina.gob.ar/node/242657",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-cronica-veda",
+   "type": "oficial",
+   "title": "Decretan veda total por marea roja en la zona norte del Golfo San Jorge (Circular N° 001/26 SP, 16/10/2026)",
+   "publisher": "Diario Crónica (cita circular de la Secretaría de Pesca del Chubut)",
+   "url": "https://www.diariocronica.com.ar/noticias/2026/10/16/172580-decretan-veda-total-por-marea-roja-en-la-zona-norte-del-golfo-san-jorge",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-cronica-10h",
+   "type": "local",
+   "title": "Preparan las 10 Horas de Pesca Variada en Bahía Solano (02/02/2026)",
+   "publisher": "Diario Crónica",
+   "url": "https://www.diariocronica.com.ar/noticias/2026/02/02/132633-preparan-las-10-horas-de-pesca-variada-en-bahia-solano",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-cronica-pejerrey26",
+   "type": "local",
+   "title": "Océano Team se quedó con la Copa Challenger (21/05/2026)",
+   "publisher": "Diario Crónica",
+   "url": "https://www.diariocronica.com.ar/noticias/2026/05/21/144372-oceano-team-se-quedo-con-la-copa-challenger",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-cronica-gv-rt",
+   "type": "local",
+   "title": "Playas Seguras: Rada Tilly activó su temporada de guardavidas 2025-2026 (17/12/2025)",
+   "publisher": "Diario Crónica",
+   "url": "https://www.diariocronica.com.ar/noticias/2025/12/17/130113-playas-seguras-rada-tilly-activo-su-temporada-de-guardavidas-2025-2026",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-robalo24",
+   "type": "local",
+   "title": "La Fiesta Provincial del Róbalo se celebró en un entorno natural increíble de Comodoro Rivadavia (11/07/2024)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/pesca/la-fiesta-provincial-del-robalo-se-celebro-en-un-entorno-natural-increible-de-comodoro-rivadavia.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-robalo25",
+   "type": "local",
+   "title": "La Fiesta Provincial del Róbalo anuncia una nueva edición con jugosos premios (11/02/2025)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/pesca/la-fiesta-provincial-del-robalo-anuncia-una-nueva-edicion-con-jugosos-premios.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-rocas2020",
+   "type": "local",
+   "title": "Pesca en Chubut: Rocas Coloradas, Bahía Solano, El Médano y Bahía Misteriosa (20/02/2020)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/pesca/chubut.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-12esp",
+   "type": "local",
+   "title": "12 especies a tiro de caña (25/01/2019)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/pesca/12-especies-a-tiro-de-cana.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-may22",
+   "type": "local",
+   "title": "Explosión de pejerreyes en todo el país (13/05/2022)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/el-pique/explosion-de-pejerreyes-en-todo-el-pais.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-jul22",
+   "type": "local",
+   "title": "¿Dónde está el pique en vacaciones? (22/07/2022)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/el-pique/donde-esta-el-pique-en-vacaciones.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-weekend-2020",
+   "type": "local",
+   "title": "16 playas y muelles de la costa: cuáles están abiertos y qué se pesca (29/07/2020)",
+   "publisher": "Weekend (Perfil)",
+   "url": "https://weekend.perfil.com/noticias/pesca/playas-y-muelles-de-la-costa-cuales-estan-abiertos-y-que-se-pesca.phtml",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-elcom-enganche",
+   "type": "local",
+   "title": "El Enganche II desarrolla una nueva jornada de pesca ... en Bahía Solano (22/03/2022)",
+   "publisher": "El Comodorense",
+   "url": "https://www.elcomodorense.net/el-enganche-ii-desarrolla-una-nueva-jornada-de-pesca-para-la-inclusion-e-integracion-en-bahia-solano",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-elcom-cc",
+   "type": "local",
+   "title": "Playa, pesca y puestos de comida se disfrutan en Caleta Córdova (13/02/2022)",
+   "publisher": "El Comodorense",
+   "url": "https://elcomodorense.net/playa-pesca-y-puestos-de-comida-se-disfrutan-en-caleta-cordova/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-adnsur-playas19",
+   "type": "local",
+   "title": "Qué playas se pueden conocer en Comodoro Rivadavia (09/04/2019)",
+   "publisher": "ADNSUR",
+   "url": "https://www.adnsur.com.ar/sociedad/que-playas-se-pueden-conocer-en-comodoro-rivadavia_a5c93c99ca6177961e2d01efa",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-adnsur-bb",
+   "type": "local",
+   "title": "Barrancas Blancas, una guía para descubrir la playa virgen y solitaria de Comodoro Rivadavia (26/10/2025)",
+   "publisher": "ADNSUR",
+   "url": "https://www.adnsur.com.ar/turismo/barrancas-blancas--una-guia-para-descubrir-la-playa-virgen-y-solitaria-de-comodoro-rivadavia-_a68fa0ea2a812b1da0f3f9462",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-adnsur-pozones",
+   "type": "local",
+   "title": "Los Pozones, el tesoro natural que aparece cuando baja la marea en Rada Tilly (04/12/2025)",
+   "publisher": "ADNSUR",
+   "url": "https://www.adnsur.com.ar/turismo/-los-pozones---el-tesoro-natural-que-aparece-cuando-baja-la-marea-en-rada-tilly_a693202b49e5fcd8362455007",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-adnsur-rn3",
+   "type": "local",
+   "title": "Ruta Nacional 3: las diez paradas imperdibles entre Comodoro Rivadavia y Caleta Olivia (05/01/2026)",
+   "publisher": "ADNSUR",
+   "url": "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-cholila-2020",
+   "type": "local",
+   "title": "El municipio evalúa retrotraer la autorización a pescadores por la masiva concurrencia a las playas de Comodoro (05/2020, cita a ADNSUR)",
+   "publisher": "Cholila Online",
+   "url": "https://cholilaonline.ar/2020/05/el-municipio-evalua-retrotraer-la-autorizacion-a-pescadores-por-la-masiva-concurrencia-a-las-playas-de-comodoro.html",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-jornada-salmon23",
+   "type": "local",
+   "title": "Se viene la Fiesta Nacional del Salmón (01/04/2023)",
+   "publisher": "Diario Jornada",
+   "url": "https://diariojornada.com.ar/344590/magazine/se_viene_la_fiesta_nacional_del_salmon_",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-welcome-salmon",
+   "type": "local",
+   "title": "Fiesta Nacional del Salmón (Camarones)",
+   "publisher": "WelcomeArgentina",
+   "url": "https://www.welcomeargentina.com/camarones/fiesta-nacional-salmon.html",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-elchubut-salmon26",
+   "type": "local",
+   "title": "Avanzan a buen ritmo las inscripciones para los certámenes de pesca de la 43° Fiesta Nacional del Salmón (21/03/2026)",
+   "publisher": "El Chubut",
+   "url": "https://www.elchubut.com.ar/regionales/2026-3-21-10-3-0-avanzan-a-buen-ritmo-las-inscripciones-para-los-certamenes-de-pesca-de-la-43-fiesta-nacional-del-salmon",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-rionegro-raso",
+   "type": "local",
+   "title": "Un hermoso paraje perdido frente al mar que se niega a ser un pueblo fantasma (02/2024)",
+   "publisher": "Diario Río Negro",
+   "url": "https://www.rionegro.com.ar/voy-turismo/un-hermoso-paraje-perdido-frente-al-mar-que-se-niega-a-ser-un-pueblo-fantasma-3412553/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-rionegro-camarones",
+   "type": "local",
+   "title": "Cómo llegar a Cabo Dos Bahías y Camarones (16/08/2024)",
+   "publisher": "Diario Río Negro",
+   "url": "https://www.rionegro.com.ar/voy-turismo/maravillas-de-la-patagonia-cabo-dos-bahias-y-camarones-pueblos-pesqueros-para-descubrir-en-chubut-3747128/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-perceptive-raso",
+   "type": "local",
+   "title": "Patagonia (relato de viaje, Cabo Raso)",
+   "publisher": "Perceptive Travel",
+   "url": "https://www.perceptivetravel.com/issues/0516/patagonia.html",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-econo-camarones",
+   "type": "local",
+   "title": "Convenio: la estación de servicio de Camarones pasa a la red PetroChubut (12/10/2022)",
+   "publisher": "EconoJournal",
+   "url": "https://econojournal.com.ar/?p=60841",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-rewilding-pa",
+   "type": "local",
+   "title": "Argentina's New Patagonia Azul Provincial Park Secures A Vital Hotspot of Marine Biodiversity (07/05/2025)",
+   "publisher": "Rewilding Argentina",
+   "url": "https://rewilding.org/argentinas-new-patagonia-azul-provincial-park-secures-a-vital-hotspot-of-marine-biodiversity/",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rt-resort",
+   "type": "cientifico",
+   "title": "OSM node 12580308222 leisure=beach_resort name=Rada Tilly",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/12580308222",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rt-bajada1",
+   "type": "cientifico",
+   "title": "OSM way 551268462 highway=steps name=Bajada 1",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/551268462",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rt-slip",
+   "type": "cientifico",
+   "title": "OSM node 1513033929 leisure=slipway (bajada náutica, extremo norte)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/1513033929",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rt-park",
+   "type": "cientifico",
+   "title": "OSM way 551265560 amenity=parking (una de 29 playas de estacionamiento sobre la costanera, ways 551265549-551265577)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/551265560",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rt-camp",
+   "type": "cientifico",
+   "title": "OSM way 496391696 tourism=camp_site name=Rada Tilly Camping Municipal",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/496391696",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rt-ypf",
+   "type": "cientifico",
+   "title": "OSM node 2136562446 amenity=fuel name=YPF (Rada Tilly)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/2136562446",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-km3",
+   "type": "cientifico",
+   "title": "OSM node 12580308220 leisure=beach_resort name=Km 3",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/12580308220",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-km4",
+   "type": "cientifico",
+   "title": "OSM node 12580308219 leisure=beach_resort name=Km 4",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/12580308219",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-km5",
+   "type": "cientifico",
+   "title": "OSM node 12580308218 leisure=beach_resort name=Km 5",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/12580308218",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-km3-slip",
+   "type": "cientifico",
+   "title": "OSM node 2202685067 leisure=slipway name=Club Nautico kilómetro 3",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/2202685067",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-ypf-km5",
+   "type": "cientifico",
+   "title": "OSM node 272178283 amenity=fuel name=YPF (Km 5)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/272178283",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-cc-pier",
+   "type": "cientifico",
+   "title": "OSM way 953101670 man_made=pier (sin nombre, Caleta Córdova)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/953101670",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-pique",
+   "type": "cientifico",
+   "title": "OSM node 12140881216 leisure=fishing name=El Pique",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/12140881216",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-solano-beach",
+   "type": "cientifico",
+   "title": "OSM way 550981050 natural=beach surface=gravel (costa de Bahía Solano)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/550981050",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-rocas",
+   "type": "cientifico",
+   "title": "OSM relation 13767809 boundary=protected_area name=Área Natural Protegida Rocas Coloradas (Ley Provincial N° 102/20)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/relation/13767809",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-bb",
+   "type": "cientifico",
+   "title": "OSM way 286685315 natural=beach name=Playa Barrancas Blancas",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/286685315",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-raso-park",
+   "type": "cientifico",
+   "title": "OSM node 5981692726 amenity=parking (Cabo Raso)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/5981692726",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-raso-camp",
+   "type": "cientifico",
+   "title": "OSM node 5973534926 tourism=camp_site name=El Cabo",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/5973534926",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-phonda",
+   "type": "cientifico",
+   "title": "OSM node 5982120199 place=locality name=Playa Honda",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/5982120199",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-cam-camp",
+   "type": "cientifico",
+   "title": "OSM way 633731439 tourism=camp_site name=Camping Municipal (Camarones)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/way/633731439",
+   "verified": "2026-10-16"
+  },
+  {
+   "id": "c-osm-cam-fuel",
+   "type": "cientifico",
+   "title": "OSM node 4795088515 amenity=fuel name=PetroChubut (Camarones)",
+   "publisher": "© OpenStreetMap contributors (ODbL)",
+   "url": "https://www.openstreetmap.org/node/4795088515",
+   "verified": "2026-10-16"
+  }
+ ],
+ "spots": [
+  {
+   "id": "rada-tilly",
+   "new": false,
+   "name": "Rada Tilly (playa, bajadas 2 a 28)",
+   "locality": "Rada Tilly",
+   "region": "golfo-san-jorge",
+   "coords": {
+    "lat": -45.936826,
+    "lon": -67.55697,
+    "kind": "OSM node 12580308222 leisure=beach_resort name=Rada Tilly (punto de playa, a ~16 m de la línea de costa OSM). No hay nodos OSM de las bajadas 2 ni 28; la única bajada mapeada es 'Bajada 1' (OSM way 551268462, -45.94495, -67.55573), al sur de la zona de pesca",
+    "s": [
+     "c-osm-rt-resort"
+    ]
+   },
+   "bajadas": {
+    "bajada2": null,
+    "bajada28": null,
+    "t": "Las coordenadas de las bajadas 2 y 28 no están en OSM ni en las páginas municipales consultadas. En OSM solo figuran la 'Bajada 1' (extremo sur) y la bajada náutica (leisure=slipway, nodo 1513033929, -45.91550, -67.54396) en el extremo norte. Guiate por los carteles numerados de cada bajada.",
+    "c": "oficial",
+    "s": [
+     "c-rt-zonif",
+     "c-osm-rt-bajada1",
+     "c-osm-rt-slip"
+    ]
+   },
+   "existence": {
+    "t": "Playa urbana de Rada Tilly; la ordenanza municipal de zonificación de 2021 regula expresamente la pesca deportiva en la playa.",
+    "c": "oficial",
+    "s": [
+     "c-rt-zonif"
+    ]
+   },
+   "legal": {
+    "t": "Pesca deportiva autorizada entre las bajadas 2 y 28 todo el año. Del 15/12 al 15/03 solo podés pescar de 20 a 11 h. Prohibida de la bajada 28 hacia el norte (sectores de kite, náutica y carrovelismo). Los guardavidas pueden restringir actividades según clima, afluencia y mareas. Desde el 16/10/2026 está prohibido extraer bivalvos y caracoles (marea roja, Circular 001/26 SP): no juntes almeja ni mejillón para carnada.",
+    "c": "oficial",
+    "s": [
+     "c-rt-zonif",
+     "c-cronica-veda"
+    ]
+   },
+   "access": {
+    "t": "Bajadas numeradas desde la costanera; la Bajada 1 está en el extremo sur y la numeración crece hacia el norte, hasta la bajada náutica.",
+    "c": "oficial",
+    "s": [
+     "c-rt-zonif",
+     "c-osm-rt-bajada1",
+     "c-osm-rt-slip"
+    ]
+   },
+   "parking": {
+    "t": "Hay 29 playas de estacionamiento junto a la costanera (OSM). En temporada rige estacionamiento medido (SEM) sobre Av. Armada República Argentina, Av. Comandante Luis Piedrabuena y transversales; el tráiler del SEM está en la Bajada 10.",
+    "c": "unica",
+    "s": [
+     "c-osm-rt-park",
+     "c-cronica-gv-rt"
+    ]
+   },
+   "bottom": {
+    "t": "Para el róbalo, los mejores lugares de esta zona son donde el fondo de arena se mezcla con pedregales chatos; para el pez gallo, fondo de arena con línea de fondo.",
+    "c": "unica",
+    "s": [
+     "c-weekend-12esp"
+    ]
+   },
+   "bestTide": null,
+   "castingDistance": null,
+   "speciesByMonth": [],
+   "species": {
+    "ids": [
+     "robalo",
+     "pez-gallo"
+    ],
+    "c": "unica",
+    "s": [
+     "c-weekend-12esp"
+    ]
+   },
+   "dangers": [
+    {
+     "t": "Hay restingas y un sector intermareal rocoso ('Los Pozones', cerca de la Falsa Punta Marqués, extremo sur) que queda totalmente cubierto cuando sube la marea; los guardavidas patrullan ese sector y ponen advertencias en las restingas.",
+     "c": "oficial",
+     "s": [
+      "c-adnsur-pozones",
+      "c-cronica-gv-rt"
+     ],
+     "lifeRisk": true
+    }
+   ],
+   "cutoff": {
+    "t": "En Los Pozones y las restingas del sector sur: cuando sube la marea tenés que salir, porque queda cubierto (referente de Turismo local). Entrá solo con la bajamar y salí antes de que empiece a crecer.",
+    "phase": "creciente",
+    "c": "oficial",
+    "s": [
+     "c-adnsur-pozones"
+    ]
+   },
+   "services": [
+    {
+     "t": "Guardavidas todos los días hasta el 15 de marzo, de la Bajada 2 a la Bajada 28: 8 bases y una Base Central en la Bajada 15 (temporada 2025-2026).",
+     "c": "local",
+     "s": [
+      "c-cronica-gv-rt",
+      "c-rt-recom"
+     ]
+    },
+    {
+     "t": "Camping Municipal de Rada Tilly (OSM).",
+     "c": "unica",
+     "s": [
+      "c-osm-rt-camp"
+     ]
+    }
+   ],
+   "fuel": {
+    "t": "Estación YPF dentro de Rada Tilly (OSM).",
+    "c": "unica",
+    "s": [
+     "c-osm-rt-ypf"
+    ]
+   }
+  },
+  {
+   "id": "comodoro-km",
+   "new": false,
+   "name": "Comodoro Rivadavia: playas Km 3, Km 4 y Km 5",
+   "locality": "Comodoro Rivadavia",
+   "region": "golfo-san-jorge",
+   "coords": {
+    "lat": -45.844545,
+    "lon": -67.468994,
+    "kind": "OSM node 12580308220 leisure=beach_resort name=Km 3 (punto de playa, ~7 m de la costa OSM)",
+    "s": [
+     "c-osm-km3"
+    ]
+   },
+   "altCoords": [
+    {
+     "name": "Km 4",
+     "lat": -45.822717,
+     "lon": -67.457868,
+     "kind": "OSM node 12580308219 leisure=beach_resort name=Km 4 (~49 m de la costa)",
+     "s": [
+      "c-osm-km4"
+     ]
+    },
+    {
+     "name": "Km 5",
+     "lat": -45.816904,
+     "lon": -67.450529,
+     "kind": "OSM node 12580308218 leisure=beach_resort name=Km 5 (~49 m de la costa)",
+     "s": [
+      "c-osm-km5"
+     ]
+    }
+   ],
+   "existence": {
+    "t": "Km 3, Km 4 y Km 5 son playas de pesca habitual de Comodoro: ADNSUR describe Km 3 como apta para pesca y Km 4/Km 5 como de pesca y recolección de moluscos; en 2020 el municipio habilitó allí la pesca recreativa.",
+    "c": "local",
+    "s": [
+     "c-adnsur-playas19",
+     "c-weekend-2020",
+     "c-cholila-2020"
+    ]
+   },
+   "legal": {
+    "t": "No se encontró ninguna prohibición de pesca con caña en estas playas. Desde el 16/10/2026 está prohibido extraer bivalvos y caracoles en Km 3 (marea roja, Circular 001/26 SP).",
+    "c": "oficial",
+    "s": [
+     "c-cronica-veda"
+    ]
+   },
+   "access": {
+    "t": "Km 5 se accede por la RN3, junto al barrio Presidente Ortiz; Km 4 queda cerca de la Universidad Nacional de la Patagonia San Juan Bosco; Km 3 tiene escaleras de acceso.",
+    "c": "unica",
+    "s": [
+     "c-adnsur-playas19"
+    ]
+   },
+   "parking": null,
+   "bottom": {
+    "t": "Km 3: canto rodado en costa baja. Km 4: acantilados alternados con playas de canto rodado. Km 5: arena y grava con arcillas blancas y zonas de erosión.",
+    "c": "unica",
+    "s": [
+     "c-adnsur-playas19"
+    ]
+   },
+   "bestTide": null,
+   "castingDistance": null,
+   "speciesByMonth": [
+    {
+     "species": "pejerrey",
+     "months": [
+      5
+     ],
+     "t": "En mayo de 2022 se reportaron muy buenas salidas al pejerrey, con buenos rindes entre el Km 3 y el Km 5.",
+     "c": "unica",
+     "s": [
+      "c-weekend-may22"
+     ]
+    }
+   ],
+   "species": {
+    "ids": [
+     "pejerrey"
+    ],
+    "c": "unica",
+    "s": [
+     "c-weekend-may22"
+    ]
+   },
+   "dangers": [
+    {
+     "t": "El agua de Km 3, 4 y 5 resultó no apta para baño en los muestreos de 2019: no te metas al agua.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-playas19"
+     ],
+     "lifeRisk": false
+    }
+   ],
+   "cutoff": null,
+   "services": [
+    {
+     "t": "Km 3: baños públicos, escaleras, kiosco, cartelería y guardavidas en temporada (2019). Km 5: fogones.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-playas19"
+     ]
+    },
+    {
+     "t": "Rampa del Club Náutico Km 3 (OSM).",
+     "c": "unica",
+     "s": [
+      "c-osm-km3-slip"
+     ]
+    }
+   ],
+   "fuel": {
+    "t": "Estación YPF en Km 5, sobre la RN3 (OSM).",
+    "c": "unica",
+    "s": [
+     "c-osm-ypf-km5"
+    ]
+   }
+  },
+  {
+   "id": "caleta-cordova",
+   "new": false,
+   "name": "Caleta Córdova (muelle y costa)",
+   "locality": "Caleta Córdova, Comodoro Rivadavia",
+   "region": "golfo-san-jorge",
+   "coords": {
+    "lat": -45.749151,
+    "lon": -67.376803,
+    "kind": "Coordenada oficial de la ficha 'Playa Caleta Córdova' de Comodoro Turismo (Punta Novales 649; ~7 m de la costa OSM). El muelle no tiene nombre en OSM: hay 4 elementos man_made=pier; el más largo es OSM way 953101670 (-45.7484, de -67.3771 a -67.3734)",
+    "s": [
+     "c-ct-cc",
+     "c-osm-cc-pier"
+    ]
+   },
+   "existence": {
+    "t": "Barrio costero a 18 km del centro; se pesca desde el muelle (con caña y con red) y desde la costa. El municipio organiza jornadas de pesca 'en el Muelle de Caleta Córdova'.",
+    "c": "oficial",
+    "s": [
+     "c-ct-cc",
+     "c-mcr-muelle",
+     "c-elcom-cc",
+     "c-adnsur-playas19"
+    ]
+   },
+   "legal": {
+    "t": "No se encontró prohibición de pesca con caña. Desde el 16/10/2026 está prohibido extraer bivalvos y caracoles en Caleta Córdova (marea roja, Circular 001/26 SP).",
+    "c": "oficial",
+    "s": [
+     "c-cronica-veda"
+    ]
+   },
+   "access": {
+    "t": "Por asfalto hasta el barrio, a unos 18 km del centro de Comodoro.",
+    "c": "local",
+    "s": [
+     "c-ct-cc",
+     "c-elcom-cc",
+     "c-adnsur-bb"
+    ]
+   },
+   "parking": null,
+   "bottom": {
+    "t": "Playa amplia de canto rodado y aguas calmas.",
+    "c": "unica",
+    "s": [
+     "c-ct-cc"
+    ]
+   },
+   "bestTide": null,
+   "castingDistance": null,
+   "speciesByMonth": [
+    {
+     "species": "pez-gallo",
+     "months": [
+      5
+     ],
+     "t": "En mayo de 2022 se reportaron gallos en Caleta Córdova.",
+     "c": "unica",
+     "s": [
+      "c-weekend-may22"
+     ]
+    },
+    {
+     "species": "robalo",
+     "months": [
+      5
+     ],
+     "t": "En mayo de 2022 se reportaron róbalos en Caleta Córdova.",
+     "c": "unica",
+     "s": [
+      "c-weekend-may22"
+     ]
+    }
+   ],
+   "species": {
+    "ids": [
+     "pez-gallo",
+     "robalo"
+    ],
+    "c": "unica",
+    "s": [
+     "c-weekend-may22"
+    ]
+   },
+   "dangers": [
+    {
+     "t": "En febrero de 2021 Prefectura rescató a 9 personas (6 menores) que quedaron aisladas por la creciente en una isla cercana al Faro San Jorge.",
+     "c": "oficial",
+     "s": [
+      "c-pna-cc-2021"
+     ],
+     "lifeRisk": true
+    }
+   ],
+   "cutoff": {
+    "t": "Si cruzás en bajamar a la isla o a las restingas cerca del Faro San Jorge, la creciente te puede dejar aislado sin poder volver a la costa. Volvé antes de que empiece a subir la marea.",
+    "phase": "creciente",
+    "c": "oficial",
+    "s": [
+     "c-pna-cc-2021"
+    ]
+   },
+   "services": [
+    {
+     "t": "Gastronomía de mar y Feria de Maricultores los fines de semana.",
+     "c": "oficial",
+     "s": [
+      "c-ct-cc",
+      "c-adnsur-playas19",
+      "c-elcom-cc"
+     ]
+    }
+   ],
+   "fuel": null
+  },
+  {
+   "id": "bahia-solano",
+   "new": false,
+   "name": "Bahía Solano",
+   "locality": "Comodoro Rivadavia (zona norte, RP1)",
+   "region": "golfo-san-jorge",
+   "coords": {
+    "lat": -45.633335,
+    "lon": -67.353595,
+    "kind": "OSM node 12140881216 leisure=fishing name=El Pique (punto de pesca en la playa de Bahía Solano, ~67 m de la costa OSM; El Pique es el club que organiza las 10 Horas en Bahía Solano)",
+    "s": [
+     "c-osm-pique",
+     "c-osm-solano-beach"
+    ]
+   },
+   "existence": {
+    "t": "Playa de Bahía Solano, zona norte de Comodoro: sede de las '10 Horas de Pesca Variada' (club El Pique), de la Fiesta Provincial del Róbalo (Océano Team) y de la Provincial del Pejerrey Patagónico (Refugio Pascual Fenolle).",
+    "c": "local",
+    "s": [
+     "c-cronica-10h",
+     "c-weekend-robalo24",
+     "c-elcom-enganche",
+     "c-cronica-pejerrey26"
+    ]
+   },
+   "legal": {
+    "t": "No se encontró prohibición de pesca en la playa de Bahía Solano. Ojo: según OSM, el sector norte de la bahía (hacia el Pico Salamanca) queda dentro del ANP Rocas Coloradas (Ley Provincial 102/20, categoría V); el punto El Pique queda fuera. No se encontró reglamento de pesca del ANP.",
+    "c": "local",
+    "s": [
+     "c-weekend-robalo24",
+     "c-cronica-10h",
+     "c-osm-rocas"
+    ]
+   },
+   "access": {
+    "t": "Por la RP1 al norte de Caleta Córdova; en la playa hay refugios de clubes (Refugio Pascual Fenolle, Refugio Vasco Gonnard).",
+    "c": "local",
+    "s": [
+     "c-cronica-pejerrey26",
+     "c-elcom-enganche"
+    ]
+   },
+   "parking": null,
+   "bottom": null,
+   "bestTide": null,
+   "castingDistance": {
+    "t": "Para pejerrey el tiro es corto, apenas en la rompiente.",
+    "c": "unica",
+    "s": [
+     "c-weekend-rocas2020"
+    ]
+   },
+   "speciesByMonth": [
+    {
+     "species": "pejerrey",
+     "months": [
+      2
+     ],
+     "t": "En febrero de 2020 había buena pesca de pejerrey de 18 a 25 cm (algunos de 40 cm) con línea de fondo y almeja, camarón o magrú.",
+     "c": "unica",
+     "s": [
+      "c-weekend-rocas2020"
+     ]
+    },
+    {
+     "species": "pejerrey",
+     "months": [
+      5
+     ],
+     "t": "En el concurso del 17/05/2026 salió pejerrey en cantidad (una pareja sumó 561 piezas).",
+     "c": "unica",
+     "s": [
+      "c-cronica-pejerrey26"
+     ]
+    },
+    {
+     "species": "robalo",
+     "months": [
+      7
+     ],
+     "t": "En la Fiesta Provincial del Róbalo del 7/7/2024 hubo capturas de róbalo con mar bravo; los piques arrancaron cerca del mediodía.",
+     "c": "unica",
+     "s": [
+      "c-weekend-robalo24"
+     ]
+    }
+   ],
+   "species": {
+    "ids": [
+     "pejerrey",
+     "robalo",
+     "pez-gallo"
+    ],
+    "c": "unica",
+    "s": [
+     "c-weekend-rocas2020",
+     "c-weekend-robalo24",
+     "c-weekend-12esp"
+    ]
+   },
+   "dangers": [],
+   "cutoff": null,
+   "services": [
+    {
+     "t": "Inscripción y carnada para los concursos en comercios de Comodoro: El Nuevo Coyote, Pescadería Océano, Carnadas del Sur y De Paso Cañazo (2025).",
+     "c": "unica",
+     "s": [
+      "c-weekend-robalo25"
+     ]
+    }
+   ],
+   "fuel": null
+  },
+  {
+   "id": "barrancas-blancas",
+   "new": true,
+   "name": "Playa Barrancas Blancas",
+   "locality": "Comodoro Rivadavia (norte, 5 km pasando Caleta Córdova)",
+   "region": "golfo-san-jorge",
+   "coords": {
+    "lat": -45.69775,
+    "lon": -67.362861,
+    "kind": "Coordenada oficial de la ficha de Comodoro Turismo (~100 m de la costa OSM); coincide con OSM way 286685315 natural=beach name=Playa Barrancas Blancas",
+    "s": [
+     "c-ct-bb",
+     "c-osm-bb"
+    ]
+   },
+   "existence": {
+    "t": "Playa de Comodoro, sede de la tradicional Fiesta del Pescador con concurso de pesca, a unos 5 km al norte de Caleta Córdova.",
+    "c": "oficial",
+    "s": [
+     "c-ct-bb",
+     "c-mcr-bb-fiesta",
+     "c-adnsur-bb"
+    ]
+   },
+   "legal": {
+    "t": "Sin restricción documentada; el municipio organiza aquí concursos de pesca. Según OSM, la playa queda fuera del ANP Rocas Coloradas.",
+    "c": "oficial",
+    "s": [
+     "c-mcr-bb-fiesta",
+     "c-osm-rocas"
+    ]
+   },
+   "access": {
+    "t": "Asfalto hasta Caleta Córdova y luego ripio por la RP1, transitable con precaución; hay carteles y una huella de campo que baja a la costa.",
+    "c": "local",
+    "s": [
+     "c-adnsur-bb",
+     "c-mcr-bb-caminos"
+    ]
+   },
+   "parking": {
+    "t": "En 2020 el municipio señalizó accesos y egresos y dispuso sectores de estacionamiento.",
+    "c": "unica",
+    "s": [
+     "c-mcr-bb-fiesta"
+    ]
+   },
+   "bottom": {
+    "t": "Canto rodado y arena; en bajamar aparecen restingas y pedregullo; barrancas de arcilla. Las cañas se clavan entre las piedras.",
+    "c": "unica",
+    "s": [
+     "c-adnsur-bb"
+    ]
+   },
+   "bestTide": null,
+   "castingDistance": null,
+   "speciesByMonth": [
+    {
+     "species": "pejerrey",
+     "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "t": "Pejerrey todo el año (los tamaños varían según la temporada).",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "species": "robalo",
+     "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "t": "Róbalo todo el año.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "species": "cazon",
+     "months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+     ],
+     "t": "Cazón de septiembre a marzo.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "species": "pez-gallo",
+     "months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+     ],
+     "t": "Pez gallo de septiembre a marzo.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "species": "chucho",
+     "months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+     ],
+     "t": "Chucho de septiembre a marzo.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "species": "rayas",
+     "months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+     ],
+     "t": "Raya de septiembre a marzo.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "species": "other:gatopardo",
+     "months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+     ],
+     "t": "Gatopardo de septiembre a marzo.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    }
+   ],
+   "species": {
+    "ids": [
+     "pejerrey",
+     "robalo",
+     "cazon",
+     "pez-gallo",
+     "chucho",
+     "rayas"
+    ],
+    "c": "unica",
+    "s": [
+     "c-adnsur-bb"
+    ]
+   },
+   "dangers": [
+    {
+     "t": "Sin guardavidas ni servicios.",
+     "c": "oficial",
+     "s": [
+      "c-ct-bb",
+      "c-adnsur-bb"
+     ],
+     "lifeRisk": false
+    },
+    {
+     "t": "ADVERTENCIA DE FUENTE ÚNICA (no cumple el criterio estricto, se deja por seguridad): en el sector de barrancas de arcilla, cuando sube la marea no queda costa transitable.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ],
+     "lifeRisk": true
+    }
+   ],
+   "cutoff": null,
+   "services": [
+    {
+     "t": "Sin baños, almacenes ni estaciones de servicio, y sin señal de teléfono ni internet: llevá agua y comida.",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    },
+    {
+     "t": "Se acampa de hecho entre los arbustos altos (en 2020 el municipio previó un sector de camping para el evento).",
+     "c": "unica",
+     "s": [
+      "c-adnsur-bb"
+     ]
+    }
+   ],
+   "fuel": {
+    "t": "No hay estación de servicio en la playa; cargá en Comodoro.",
+    "c": "unica",
+    "s": [
+     "c-adnsur-bb"
+    ]
+   }
+  },
+  {
+   "id": "camarones",
+   "new": false,
+   "name": "Camarones (Playa Thompson y Playa Honda)",
+   "locality": "Camarones",
+   "region": "sur",
+   "coords": {
+    "lat": -44.870876,
+    "lon": -65.711491,
+    "kind": "OSM node 5982120199 place=locality name=Playa Honda (topónimo de la playa, ~22 m de la costa OSM; no es un acceso señalizado). Playa Thompson (sede principal del concurso de costa, al norte del pueblo) NO está en OSM: sin coordenadas",
+    "s": [
+     "c-osm-phonda"
+    ]
+   },
+   "existence": {
+    "t": "Playa Thompson (al norte del pueblo) es sede del concurso de pesca de costa de la Fiesta Nacional del Salmón, con Playa Honda como alternativa; el concurso de costa lo organiza la Peña 'La Bahía'.",
+    "c": "local",
+    "s": [
+     "c-jornada-salmon23",
+     "c-welcome-salmon",
+     "c-weekend-jul22",
+     "c-elchubut-salmon26"
+    ]
+   },
+   "legal": {
+    "t": "Sin restricción documentada para la pesca de costa en estas playas. Quedan al norte del paralelo 44°54' S (límite norte del PIMCPA); los límites exactos del Parque Provincial Patagonia Azul no se pudieron confirmar.",
+    "c": "local",
+    "s": [
+     "c-jornada-salmon23",
+     "c-rewilding-pa"
+    ]
+   },
+   "access": {
+    "t": "Desde la RN3, 72 km por la RP30 hasta Camarones.",
+    "c": "local",
+    "s": [
+     "c-rionegro-camarones"
+    ]
+   },
+   "parking": null,
+   "bottom": {
+    "t": "Playa Thompson y Caleta Carolina tienen buena profundidad cerca de la costa.",
+    "c": "unica",
+    "s": [
+     "c-weekend-jul22"
+    ]
+   },
+   "bestTide": null,
+   "castingDistance": {
+    "t": "Para róbalo, poné el aparejo un poco más allá de la rompiente.",
+    "c": "unica",
+    "s": [
+     "c-weekend-jul22"
+    ]
+   },
+   "speciesByMonth": [
+    {
+     "species": "robalo",
+     "months": [
+      7
+     ],
+     "t": "En julio de 2022 la atracción era el róbalo desde la playa (Playa Thompson / Caleta Carolina).",
+     "c": "unica",
+     "s": [
+      "c-weekend-jul22"
+     ]
+    }
+   ],
+   "species": {
+    "ids": [
+     "robalo"
+    ],
+    "c": "unica",
+    "s": [
+     "c-weekend-jul22"
+    ]
+   },
+   "dangers": [],
+   "cutoff": null,
+   "services": [
+    {
+     "t": "Hospedajes, cabañas, camping municipal, restaurantes y pequeños almacenes.",
+     "c": "local",
+     "s": [
+      "c-rionegro-camarones",
+      "c-osm-cam-camp"
+     ]
+    },
+    {
+     "t": "El concurso de costa de la Fiesta del Salmón es a principios de abril (3 al 5/04/2026); inscripción con la Peña La Bahía.",
+     "c": "local",
+     "s": [
+      "c-elchubut-salmon26",
+      "c-jornada-salmon23"
+     ]
+    }
+   ],
+   "fuel": {
+    "t": "Hay una estación PetroChubut en Camarones (convenio de 2022; OSM). Una nota de 2024 dice que la más cercana está en Garayalde (83 km): confirmá antes de viajar.",
+    "c": "local",
+    "s": [
+     "c-econo-camarones",
+     "c-osm-cam-fuel",
+     "c-rionegro-camarones"
+    ]
+   }
+  },
+  {
+   "id": "cabo-raso",
+   "new": false,
+   "name": "Cabo Raso",
+   "locality": "Cabo Raso (paraje, RP1)",
+   "region": "sur",
+   "coords": {
+    "lat": -44.3467395,
+    "lon": -65.2262403,
+    "kind": "OSM node 5981692726 amenity=parking (sin nombre, ~75 m de la costa OSM). Camping 'El Cabo': OSM node 5973534926 (-44.33884, -65.24737)",
+    "s": [
+     "c-osm-raso-park",
+     "c-osm-raso-camp"
+    ]
+   },
+   "existence": {
+    "t": "Paraje sobre la RP1, 170 km al sur de Trelew, con varias opciones de pesca (no se nombran especies ni puntos).",
+    "c": "local",
+    "s": [
+     "c-rionegro-raso",
+     "c-perceptive-raso"
+    ]
+   },
+   "legal": {
+    "t": "Sin restricción documentada; queda al norte del PIMCPA (44°54' S) y fuera de la reserva de Punta Tombo.",
+    "c": "local",
+    "s": [
+     "c-rionegro-raso"
+    ]
+   },
+   "access": {
+    "t": "Por la RP1, de ripio: transitala con precaución.",
+    "c": "local",
+    "s": [
+     "c-rionegro-raso",
+     "c-rionegro-camarones"
+    ]
+   },
+   "parking": null,
+   "bottom": null,
+   "bestTide": null,
+   "castingDistance": null,
+   "speciesByMonth": [],
+   "species": null,
+   "dangers": [
+    {
+     "t": "Playas de gran oleaje (buscadas por surfistas).",
+     "c": "local",
+     "s": [
+      "c-rionegro-raso",
+      "c-rionegro-camarones"
+     ],
+     "lifeRisk": true
+    }
+   ],
+   "cutoff": null,
+   "services": [
+    {
+     "t": "Camping con parcelas, fogones y baños secos; parador y pequeña proveeduría.",
+     "c": "local",
+     "s": [
+      "c-rionegro-raso",
+      "c-rionegro-camarones"
+     ]
+    },
+    {
+     "t": "Sin internet ni teléfono.",
+     "c": "local",
+     "s": [
+      "c-rionegro-camarones",
+      "c-rionegro-raso"
+     ]
+    }
+   ],
+   "fuel": null
+  }
+ ],
+ "rejected": [
+  {
+   "name": "Bahía Janssen / Bahía Cruz / Punta Clara (tramo Punta Tombo – Cabo Raso)",
+   "reason": "No se encontró ninguna fuente que las documente como lugar de pesca de costa (solo existen como estaciones de marea del SHN). OSM no tiene playas ni accesos mapeados en ese tramo (solo cabos). Sin existencia ni acceso verificados.",
+   "sourcesConsulted": [
+    "búsquedas web 2026-10-16",
+    "https://overpass-api.de/api/interpreter (bbox -44.45,-65.40,-44.05,-65.15)"
+   ]
+  },
+  {
+   "name": "Playa Thompson (coordenadas)",
+   "reason": "Existe como sede del concurso de costa (ver spot camarones), pero no hay ningún elemento OSM ni coordenada oficial: queda sin coordenadas.",
+   "sourcesConsulted": [
+    "https://diariojornada.com.ar/344590/magazine/se_viene_la_fiesta_nacional_del_salmon_",
+    "https://overpass-api.de/api/interpreter"
+   ]
+  },
+  {
+   "name": "Caleta Carolina (Camarones)",
+   "reason": "La pesca solo la documenta Weekend 2022 (fuente única). OSM la ubica en -44.9054, -65.6066 (place=locality), al sur del paralelo 44°54' S: probablemente dentro del PIMCPA y del Parque Provincial Patagonia Azul (legalidad sin confirmar).",
+   "sourcesConsulted": [
+    "https://weekend.perfil.com/noticias/el-pique/donde-esta-el-pique-en-vacaciones.phtml",
+    "https://www.c5n.com/lifestyle/turismo-argentina-esta-el-sur-y-es-ideal-los-amantes-del-mar-y-la-naturaleza-n217764",
+    "https://www.openstreetmap.org/node/5982236805"
+   ]
+  },
+  {
+   "name": "Playa Elola, El Pescadero, Caleta Sara, El Chuequito Grande (Camarones)",
+   "reason": "Solo aparecen en listados turísticos (C5N) sin mención de pesca. Playa Elola tiene camping en OSM (node 629045807).",
+   "sourcesConsulted": [
+    "https://www.c5n.com/lifestyle/turismo-argentina-esta-el-sur-y-es-ideal-los-amantes-del-mar-y-la-naturaleza-n217764"
+   ]
+  },
+  {
+   "name": "Playa Elena / Punta Tafor (Camarones)",
+   "reason": "Sin resultados en web ni en OSM.",
+   "sourcesConsulted": [
+    "búsquedas web 2026-10-16",
+    "https://overpass-api.de/api/interpreter"
+   ]
+  },
+  {
+   "name": "Bahía Bustamante / camping Arroyo Marea",
+   "reason": "La pesca la documenta una sola fuente (Canal26). Dentro de Patagonia Azul (legalidad sin confirmar): ONG y prensa dicen que sus aguas son no-take, y GreenMe incluye la pesca recreativa.",
+   "sourcesConsulted": [
+    "https://www.canal26.com/turismo/escapadas-en-la-naturaleza-tres-campings-gratuitos-para-disfrutar-la-costa-de-chubut-en-semana-santa--419929",
+    "https://rewilding.org/argentinas-new-patagonia-azul-provincial-park-secures-a-vital-hotspot-of-marine-biodiversity/",
+    "https://www.greenme.it/ambiente/creata-area-naturale-protetta-argentina/"
+   ]
+  },
+  {
+   "name": "Puerto Visser",
+   "reason": "Una sola fuente (ADNSUR 2023: pesca de tiburón y cartilaginosos, acceso 4x4, a 58 km de Comodoro). Está en el límite del ANP Rocas Coloradas y dentro de la reserva de biosfera Patagonia Azul.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/comodoro/puerto-visser--un-antiguo-paraje-costero-muy-elegido-por-pescadores-y-amantes-de-la-naturaleza_a63c2a09d9d65f2964339d106"
+   ]
+  },
+  {
+   "name": "Costanera de Comodoro",
+   "reason": "Solo Weekend 2020 (habilitación durante la pandemia) la nombra como lugar de pesca; ADNSUR 2019 no menciona pesca. Fuente única.",
+   "sourcesConsulted": [
+    "https://weekend.perfil.com/noticias/pesca/playas-y-muelles-de-la-costa-cuales-estan-abiertos-y-que-se-pesca.phtml",
+    "https://www.adnsur.com.ar/sociedad/que-playas-se-pueden-conocer-en-comodoro-rivadavia_a5c93c99ca6177961e2d01efa"
+   ]
+  },
+  {
+   "name": "Km 8 (Comodoro)",
+   "reason": "Solo aparece con datos de calidad de agua (no apta); sin documentación de pesca.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/sociedad/que-playas-se-pueden-conocer-en-comodoro-rivadavia_a5c93c99ca6177961e2d01efa"
+   ]
+  },
+  {
+   "name": "Restinga Alí",
+   "reason": "Solo hay recolección de carnada (ADNSUR 2019) y un caso de una 4x4 de un pescador atrapada por la marea (Infocampo, fuente única); agua no apta. No se verificó como pesquero con 2 fuentes. Peligro: no bajes con vehículo a la costa.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/sociedad/que-playas-se-pueden-conocer-en-comodoro-rivadavia_a5c93c99ca6177961e2d01efa",
+    "https://www.infocampo.com.ar/?p=438745",
+    "https://comodoroturismo.gob.ar/lista/playa-restinga-ali/"
+   ]
+  },
+  {
+   "name": "Punta Borja",
+   "reason": "Es un punto histórico (primer muelle de 1901, zona del Cerro Chenque); sin documentación como pesquero.",
+   "sourcesConsulted": [
+    "búsqueda en ADNSUR y Crónica 2026-10-16"
+   ]
+  },
+  {
+   "name": "Playa Belvedere / Bajada de los Palitos",
+   "reason": "La pesca la menciona una sola fuente (ADNSUR 2021). Linda con el ANP Punta Marqués, ampliada en 2025 a 3.727 ha (límites nuevos no verificados). Incluida en la veda de bivalvos del 16/10/2026.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/especiales/comodoro-desde-arriba/comodoro--desde-arriba---sobrevolando-la-playa-de-la-bajada-de-los-palitos_a617c16b775a6f613cb890178",
+    "https://elcomodorense.net/preocupa-el-futuro-de-la-playa-de-la-bajada-de-los-palitos/",
+    "https://www.openstreetmap.org/relation/6855368"
+   ]
+  },
+  {
+   "name": "Punta del Marqués",
+   "reason": "Área Natural Protegida (lobería); excluida como spot por instrucción. No se encontró reglamento de pesca.",
+   "sourcesConsulted": [
+    "https://www.openstreetmap.org/relation/4510022"
+   ]
+  },
+  {
+   "name": "La Herradura",
+   "reason": "Barrio cerrado (country) con ingreso no público. Sin documentación de pesca.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09"
+   ]
+  },
+  {
+   "name": "Playa Bonita / Los Límites",
+   "reason": "Existe (ficha oficial de Comodoro Turismo con coordenada -46.000095, -67.591525, 'en el límite entre Chubut y Santa Cruz'; recomienda verificar mareas antes de ir). La coordenada oficial cae unos 10 m al sur del paralelo 46° S (lado Santa Cruz), y OSM tiene dos nodos 'Bonita', uno a cada lado (-45.988 en Chubut, -46.008 en Santa Cruz). La pesca solo la menciona Weekend 2019 (róbalo y pez gallo): fuente única.",
+   "sourcesConsulted": [
+    "https://comodoroturismo.gob.ar/lista/playa-bonita/",
+    "https://weekend.perfil.com/noticias/pesca/12-especies-a-tiro-de-cana.phtml",
+    "https://www.openstreetmap.org/node/12580308226",
+    "https://www.openstreetmap.org/node/12580308225"
+   ]
+  },
+  {
+   "name": "Ramón Santos",
+   "reason": "Es un puesto policial interprovincial sobre la RN3 (lado Chubut), frente a una playa muy visitada; sin documentación de pesca.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09"
+   ]
+  },
+  {
+   "name": "Playa Ancina / Acina (km 1866 RN3)",
+   "reason": "Queda del lado de Santa Cruz (pasando Punta Maqueda; el nodo OSM 'Alsina' está en -46.053, al sur del paralelo 46° S). Fuera de Chubut.",
+   "sourcesConsulted": [
+    "https://www.adnsur.com.ar/turismo/ruta-nacional-3--las-diez-paradas-imperdibles-entre-comodoro-rivadavia-y-caleta-olivia_a695c17dbeaf080d137068b09",
+    "https://www.openstreetmap.org/node/12580308229"
+   ]
+  }
+ ]
+}

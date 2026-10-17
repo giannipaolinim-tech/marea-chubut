@@ -1,0 +1,10 @@
+# Third-party documents and raw downloads used during research (not redistributed)
+research/raw2/legal_files/
+research/raw2/img_candidates/
+
+# Local tooling
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

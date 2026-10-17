@@ -1,0 +1,132 @@
+{
+ "robalo": {
+  "file": "img/species/robalo.jpg",
+  "title": "Eleginops maclovinus",
+  "page": "https://www.inaturalist.org/observations/65235964",
+  "author": "Autor en iNaturalist (CC0, sin derechos reservados)",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "place": "Caleta Córdova, Chubut, Argentina",
+  "date": "2012-02-19",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "pejerrey": {
+  "file": "img/species/pejerrey.jpg",
+  "title": "Odontesthes smitti",
+  "page": "https://www.inaturalist.org/observations/388739742",
+  "author": "RAP",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "place": "Mar del Plata, Provincia de Buenos Aires, Argentina",
+  "date": "2026-07-24",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "cazon": {
+  "file": "img/species/cazon.jpg",
+  "title": "File:Galeorhinus_galeus_SI.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Galeorhinus_galeus_SI.jpg",
+  "author": "D Ross Robertson",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "credit": "http://biogeodb.stri.si.edu/sftep/en/gallery/specie/74",
+  "retrieved": "2026-10-16"
+ },
+ "gatuzo": {
+  "file": "img/species/gatuzo.jpg",
+  "title": "Mustelus schmitti",
+  "page": "https://www.inaturalist.org/observations/125106460",
+  "author": "Ezequiel Vera",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "place": "Buenos Aires, AR",
+  "date": "2022-07-03",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "pez-gallo": {
+  "file": "img/species/pez-gallo.jpg",
+  "title": "Callorhinchus callorynchus",
+  "page": "https://www.inaturalist.org/observations/887465",
+  "author": "Nicolas Olejnik",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "place": "Peninsula de Valdez, Chubut",
+  "date": "2009-01-18",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "gatopardo": {
+  "file": "img/species/gatopardo.jpg",
+  "title": "Notorynchus cepedianus",
+  "page": "https://www.inaturalist.org/observations/339498760",
+  "author": "Tomás Tamagno",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "place": "Argentina",
+  "date": "2026-02-01",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "pez-angel": {
+  "file": "img/species/pez-angel.jpg",
+  "title": "Squatina guggenheim",
+  "page": "https://www.inaturalist.org/observations/161352203",
+  "author": "Autor en iNaturalist (CC0, sin derechos reservados)",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "place": "Argentina",
+  "date": "2020-05-13",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "chucho": {
+  "file": "img/species/chucho.jpg",
+  "title": "Myliobatis goodei",
+  "page": "https://www.inaturalist.org/observations/104649714",
+  "author": "Valentín Alfano",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "place": "Buenos Aires, AR",
+  "date": "2022-01-08",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "palometa": {
+  "file": "img/species/palometa.jpg",
+  "title": "Parona signata",
+  "page": "https://www.inaturalist.org/observations/104919995",
+  "author": "Autor en iNaturalist (CC0, sin derechos reservados)",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "place": "Puerto Playa Union, Chubut, Argentina",
+  "date": "2022-01-13",
+  "caption": null,
+  "retrieved": "2026-10-16"
+ },
+ "rayas-bonapartii": {
+  "file": "img/species/rayas-bonapartii.jpg",
+  "title": "Sympterygia bonapartii",
+  "page": "https://www.inaturalist.org/observations/226670488",
+  "author": "Abril Bastons",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "place": "Argentina",
+  "date": "2024-06-30",
+  "caption": "Raya de nariz corta (Sympterygia bonapartii)",
+  "retrieved": "2026-10-16"
+ },
+ "rayas-tschudii": {
+  "file": "img/species/rayas-tschudii.jpg",
+  "title": "Discopyge tschudii",
+  "page": "https://commons.wikimedia.org/wiki/File:Discopyge_tschudii_245447726.jpg",
+  "author": "Diego Almendras G.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "place": "not stated on Commons",
+  "date": "2016-10-24",
+  "caption": "Raya eléctrica (Discopyge tschudii)",
+  "retrieved": "2026-10-16"
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "verified": "2026-10-16",
+ "authority": {
+  "name": "Secretaría de Pesca del Chubut",
+  "address": "Libertad 279, Rawson",
+  "phones": [
+   "(0280) 483337",
+   "(0280) 482709"
+  ],
+  "url": "https://pesca.chubut.gob.ar/",
+  "c": "oficial",
+  "s": [
+   "sp-chubut",
+   "circ-001-26"
+  ]
+ },
+ "noLimitsNotice": {
+  "t": "No hay tallas mínimas, cupos ni vedas por especie publicados para la pesca marítima recreativa en Chubut. La ley faculta al Ejecutivo a fijarlos: consultá la normativa vigente con la Secretaría de Pesca antes de salir.",
+  "c": "oficial",
+  "s": [
+   "ley-xvii-8",
+   "sp-chubut"
+  ]
+ },
+ "license": {
+  "required": {
+   "t": "La pesca deportiva en el mar territorial requiere licencia previa, personal e intransferible.",
+   "c": "oficial",
+   "s": [
+    "ley-xvii-8"
+   ]
+  },
+  "exempt": {
+   "t": "Los menores de 14 años pueden pescar sin licencia.",
+   "c": "oficial",
+   "s": [
+    "ley-xvii-8"
+   ]
+  },
+  "categories": [
+   {
+    "name": "Pesca desde la costa",
+    "price": "$2.000"
+   }
+  ],
+  "categoriesSrc": {
+   "c": "oficial",
+   "s": [
+    "permisos"
+   ],
+   "note": "Precios publicados al 16/10/2026. La página no indica vigencia (diaria, temporada o anual) ni exenciones para las categorías marítimas."
+  },
+  "how": {
+   "t": "El trámite es 100 % online con el asistente DINO por WhatsApp; el permiso llega en PDF.",
+   "c": "oficial",
+   "s": [
+    "permisos",
+    "sp-temporada"
+   ],
+   "url": "https://wa.me/5492804603466?text=permisos%20de%20pesca"
+  },
+  "notContinental": {
+   "t": "La licencia de ríos y lagos (continental) es otro régimen; sus exenciones (jubilados, menores de 12) no están confirmadas para el mar.",
+   "c": "oficial",
+   "s": [
+    "permisos"
+   ]
+  },
+  "otherCategories": {
+   "t": "Existen otras categorías de permiso marítimo, que esta app no cubre. Consultalas con la autoridad.",
+   "c": "oficial",
+   "s": [
+    "permisos"
+   ],
+   "url": "https://pescacontinental.gob.ar/"
+  }
+ },
+ "rules": [
+  {
+   "id": "gatopardo",
+   "title": "Gatopardo protegido",
+   "t": "Monumento Natural Provincial (Ley XI Nº 93, 2025): prohibida su caza, captura, comercio o acoso. Si pica, liberalo de inmediato.",
+   "c": "oficial",
+   "s": [
+    "bo-2025-05-20"
+   ],
+   "level": "alert"
+  },
+  {
+   "id": "veda-golfo-nuevo",
+   "title": "Veda de moluscos: Golfo Nuevo",
+   "t": "Desde el 05/08/2026 está prohibido extraer bivalvos y caracoles en el Golfo Nuevo (Res. 296/2026-SP), hasta su levantamiento expreso. No se encontró levantamiento publicado. Incluye mejillón y cholga para carnada.",
+   "c": "oficial",
+   "s": [
+    "res-296-2026"
+   ],
+   "level": "alert",
+   "since": "2026-08-05"
+  },
+  {
+   "id": "veda-gsj-norte",
+   "title": "Veda de moluscos: Golfo San Jorge norte",
+   "t": "Desde el 16/10/2026 está prohibido extraer bivalvos y caracoles en Caleta Córdova, Km 3, Rada Tilly y Playa Belvedere (Circular 001/26 SP).",
+   "c": "oficial",
+   "s": [
+    "circ-001-26",
+    "cronica-veda-2026"
+   ],
+   "level": "alert",
+   "since": "2026-10-16"
+  },
+  {
+   "id": "toxina",
+   "title": "Marea roja: la cocción no sirve",
+   "t": "Ni el mar ni los moluscos contaminados cambian de color, olor ni aspecto, y la cocción no elimina la toxina.",
+   "c": "oficial",
+   "s": [
+    "marearoja"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "artes",
+   "title": "Artes y aparejos",
+   "t": "En la pesca deportiva está prohibido usar artes, máquinas, explosivos o aparejos sin autorización expresa, arrojar sustancias nocivas o introducir especies exóticas.",
+   "c": "oficial",
+   "s": [
+    "ley-xvii-8"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "red-costa",
+   "title": "Red de costa y recolección de mariscos",
+   "t": "Son actividades de pesca artesanal con inscripción en el Registro de Pesca Artesanal, no modalidades recreativas.",
+   "c": "oficial",
+   "s": [
+    "dec-1889-11"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "condrictios",
+   "title": "Tiburones y rayas (norma nacional)",
+   "t": "La Res. CFP 8/2021 prohíbe la pesca dirigida a condrictios y el uso de bicheros o ganchos. Está redactada para la flota comercial e invita a Chubut a adoptar medidas similares; no encontramos norma provincial equivalente para la pesca recreativa.",
+   "c": "oficial",
+   "s": [
+    "cfp-8-2021"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "pv",
+   "title": "Península Valdés",
+   "t": "ANP provincial (Ley XI Nº 20). La pesca es actividad restringida: la pesca deportiva de costa solo está prevista cerca de El Riacho y Larralde y en la franja costera del Golfo Nuevo entre Punta Ameghino y Punta Arco (costa oeste y norte del golfo, zona de El Doradillo). Apostaderos intangibles: 250 m en tierra y 500 m en el mar (zonificación preliminar).",
+   "c": "oficial",
+   "s": [
+    "pv-ley",
+    "pv-plan",
+    "pv-recom"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "doradillo",
+   "title": "El Doradillo",
+   "t": "Pesca de costa permitida. De junio a diciembre no se permite entrar al agua ni hacer actividades náuticas.",
+   "c": "oficial",
+   "s": [
+    "madryn-doradillo"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "rada-tilly",
+   "title": "Rada Tilly",
+   "t": "Ordenanza 2557/21 (art. 10): pesca deportiva entre las bajadas 2 y 28; del 15/12 al 15/03 solo de 20 a 11 h; prohibida de la bajada 28 al norte (zona náutica). Desde 2025 el agua frente a la playa está dentro del ANP Punta del Marqués ampliada, cuyas reglas de pesca no están publicadas.",
+   "c": "oficial",
+   "s": [
+    "a-rt-ord-2557",
+    "radatilly-zonif",
+    "a-bo-2025-06-11"
+   ],
+   "level": "info"
+  },
+  {
+   "id": "patagonia-azul",
+   "title": "Parque Provincial Patagonia Azul",
+   "t": "Creado por Ley XI Nº 90 (2025). La ley no menciona la pesca y su Plan de Manejo no fue encontrado. Consultá antes de pescar entre Cabo Dos Bahías y el sur de Bahía Bustamante.",
+   "c": "oficial",
+   "s": [
+    "bo-2025-05-20"
+   ],
+   "level": "alert"
+  },
+  {
+   "id": "rocas-coloradas",
+   "title": "ANP Rocas Coloradas",
+   "t": "Pesca deportiva de costa con caña permitida en la franja costera, en playas con acceso por caminos habilitados y sin vehículos en la playa (Plan de Manejo, Ley XI Nº 81). Prohibida en la Zona Intangible El Islote y fuera de las modalidades habilitadas; también se prohíben kayaks y botes a remo.",
+   "c": "oficial",
+   "s": [
+    "a-bo-anexo-xi81"
+   ],
+   "level": "info"
+  }
+ ],
+ "excludedNotVerified": [
+  "Disposición 214/1994 (Península Valdés): sus supuestos cupos y temporadas circulan en resúmenes de terceros, pero no pudimos abrir el texto original.",
+  "Vigencia y exenciones de la licencia marítima (salvo menores de 14 años)."
+ ],
+ "mareaRoja": {
+  "url": "https://marearoja.chubut.gov.ar/",
+  "lastUpdateText": "16/10/2026 (Circular 001/26 SP, zona norte del Golfo San Jorge); sigue vigente la veda del Golfo Nuevo desde el 05/08/2026",
+  "t": "Plan Provincial de Prevención y Control de Marea Roja",
+  "c": "oficial",
+  "s": [
+   "marearoja",
+   "circ-001-26"
+  ]
+ }
+}
