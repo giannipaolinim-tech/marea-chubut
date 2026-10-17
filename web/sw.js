@@ -9,7 +9,8 @@ self.addEventListener('install', (event) => {
     const res = await fetch('precache.json', { cache: 'no-store' });
     const { version, files } = await res.json();
     const cache = await caches.open(PREFIX + version);
-    await cache.addAll(files);
+    // cache: 'reload' bypasses the browser HTTP cache, so an update never stores stale files.
+    await cache.addAll(files.map((f) => new Request(f, { cache: 'reload' })));
     await cache.put('precache.json', new Response(JSON.stringify({ version, files })));
     // Wait for the page to confirm ("Recargar") before taking over, unless this is the first install.
     if (!(await self.clients.matchAll()).length) self.skipWaiting();

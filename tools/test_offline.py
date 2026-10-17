@@ -69,6 +69,8 @@ for f in ["index.html", "manifest.json", "css/app.css", "vendor/suncalc/suncalc.
 if any(f.startswith("img/species/") for f in files):
     fail.append("species images should be cached on first view, not precached (L-08)")
 sw = (WEB / "sw.js").read_text(encoding="utf-8")
+if "cache: 'reload'" not in sw:
+    fail.append("sw.js must precache with cache: 'reload' (otherwise updates can store stale files)")
 if "/img/species/" not in sw:
     fail.append("sw.js has no runtime cache for species images")
 if f"const VERSION = '{pre['version']}'" not in sw:
